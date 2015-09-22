@@ -1,0 +1,410 @@
+15:41:45.063|ERROR|HttpSendHandler|30|set message error System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at System.Net.WebClient.DownloadString(String address)
+   at Race.Locator.Positioning.DeviceMan.Handler.HttpSendHandler.SetMessage(Location loc) in C:\Users\Аауи\Desktop\джибиэсу\new\src\Code Libraries\Race.Locator.Positioning.DeviceMan.Handler\HttpSendHandler.cs:line 59
+15:41:45.092|ERROR|HttpSendHandler|34|set message error System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at System.Net.WebClient.DownloadString(String address)
+   at Race.Locator.Positioning.DeviceMan.Handler.HttpSendHandler.SetMessage(Location loc) in C:\Users\Аауи\Desktop\джибиэсу\new\src\Code Libraries\Race.Locator.Positioning.DeviceMan.Handler\HttpSendHandler.cs:line 59
+15:41:45.092|ERROR|HttpSendHandler|32|set message error System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at System.Net.WebClient.DownloadString(String address)
+   at Race.Locator.Positioning.DeviceMan.Handler.HttpSendHandler.SetMessage(Location loc) in C:\Users\Аауи\Desktop\джибиэсу\new\src\Code Libraries\Race.Locator.Positioning.DeviceMan.Handler\HttpSendHandler.cs:line 59
+15:41:45.092|ERROR|HttpSendHandler|28|set message error System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at System.Net.WebClient.DownloadString(String address)
+   at Race.Locator.Positioning.DeviceMan.Handler.HttpSendHandler.SetMessage(Location loc) in C:\Users\Аауи\Desktop\джибиэсу\new\src\Code Libraries\Race.Locator.Positioning.DeviceMan.Handler\HttpSendHandler.cs:line 59
+15:41:45.092|ERROR|HttpSendHandler|17|set message error System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at System.Net.WebClient.DownloadString(String address)
+   at Race.Locator.Positioning.DeviceMan.Handler.HttpSendHandler.SetMessage(Location loc) in C:\Users\Аауи\Desktop\джибиэсу\new\src\Code Libraries\Race.Locator.Positioning.DeviceMan.Handler\HttpSendHandler.cs:line 59
+15:41:45.092|ERROR|HttpSendHandler|14|set message error System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at System.Net.WebClient.DownloadString(String address)
+   at Race.Locator.Positioning.DeviceMan.Handler.HttpSendHandler.SetMessage(Location loc) in C:\Users\Аауи\Desktop\джибиэсу\new\src\Code Libraries\Race.Locator.Positioning.DeviceMan.Handler\HttpSendHandler.cs:line 59
+15:41:45.063|ERROR|HttpSendHandler|35|set message error System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at System.Net.WebClient.DownloadString(String address)
+   at Race.Locator.Positioning.DeviceMan.Handler.HttpSendHandler.SetMessage(Location loc) in C:\Users\Аауи\Desktop\джибиэсу\new\src\Code Libraries\Race.Locator.Positioning.DeviceMan.Handler\HttpSendHandler.cs:line 59
+15:41:45.092|ERROR|HttpSendHandler|22|set message error System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at System.Net.WebClient.DownloadString(String address)
+   at Race.Locator.Positioning.DeviceMan.Handler.HttpSendHandler.SetMessage(Location loc) in C:\Users\Аауи\Desktop\джибиэсу\new\src\Code Libraries\Race.Locator.Positioning.DeviceMan.Handler\HttpSendHandler.cs:line 59
+15:41:45.063|ERROR|HttpSendHandler|33|set message error System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at System.Net.WebClient.DownloadString(String address)
+   at Race.Locator.Positioning.DeviceMan.Handler.HttpSendHandler.SetMessage(Location loc) in C:\Users\Аауи\Desktop\джибиэсу\new\src\Code Libraries\Race.Locator.Positioning.DeviceMan.Handler\HttpSendHandler.cs:line 59
+15:41:45.063|ERROR|HttpSendHandler|31|set message error System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at System.Net.WebClient.DownloadString(String address)
+   at Race.Locator.Positioning.DeviceMan.Handler.HttpSendHandler.SetMessage(Location loc) in C:\Users\Аауи\Desktop\джибиэсу\new\src\Code Libraries\Race.Locator.Positioning.DeviceMan.Handler\HttpSendHandler.cs:line 59
+15:41:45.092|ERROR|HttpSendHandler|24|set message error System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at System.Net.WebClient.DownloadString(String address)
+   at Race.Locator.Positioning.DeviceMan.Handler.HttpSendHandler.SetMessage(Location loc) in C:\Users\Аауи\Desktop\джибиэсу\new\src\Code Libraries\Race.Locator.Positioning.DeviceMan.Handler\HttpSendHandler.cs:line 59
+15:41:45.092|ERROR|HttpSendHandler|13|set message error System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at System.Net.WebClient.DownloadString(String address)
+   at Race.Locator.Positioning.DeviceMan.Handler.HttpSendHandler.SetMessage(Location loc) in C:\Users\Аауи\Desktop\джибиэсу\new\src\Code Libraries\Race.Locator.Positioning.DeviceMan.Handler\HttpSendHandler.cs:line 59
+15:41:45.092|ERROR|HttpSendHandler|18|set message error System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at System.Net.WebClient.DownloadString(String address)
+   at Race.Locator.Positioning.DeviceMan.Handler.HttpSendHandler.SetMessage(Location loc) in C:\Users\Аауи\Desktop\джибиэсу\new\src\Code Libraries\Race.Locator.Positioning.DeviceMan.Handler\HttpSendHandler.cs:line 59
+15:41:45.107|ERROR|HttpSendHandler|20|set message error System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at System.Net.WebClient.DownloadString(String address)
+   at Race.Locator.Positioning.DeviceMan.Handler.HttpSendHandler.SetMessage(Location loc) in C:\Users\Аауи\Desktop\джибиэсу\new\src\Code Libraries\Race.Locator.Positioning.DeviceMan.Handler\HttpSendHandler.cs:line 59
+15:41:45.092|ERROR|HttpSendHandler|21|set message error System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at System.Net.WebClient.DownloadString(String address)
+   at Race.Locator.Positioning.DeviceMan.Handler.HttpSendHandler.SetMessage(Location loc) in C:\Users\Аауи\Desktop\джибиэсу\new\src\Code Libraries\Race.Locator.Positioning.DeviceMan.Handler\HttpSendHandler.cs:line 59
+15:41:45.063|ERROR|HttpSendHandler|25|set message error System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at System.Net.WebClient.DownloadString(String address)
+   at Race.Locator.Positioning.DeviceMan.Handler.HttpSendHandler.SetMessage(Location loc) in C:\Users\Аауи\Desktop\джибиэсу\new\src\Code Libraries\Race.Locator.Positioning.DeviceMan.Handler\HttpSendHandler.cs:line 59
+15:41:45.063|ERROR|HttpSendHandler|29|set message error System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at System.Net.WebClient.DownloadString(String address)
+   at Race.Locator.Positioning.DeviceMan.Handler.HttpSendHandler.SetMessage(Location loc) in C:\Users\Аауи\Desktop\джибиэсу\new\src\Code Libraries\Race.Locator.Positioning.DeviceMan.Handler\HttpSendHandler.cs:line 59
+15:41:45.063|ERROR|HttpSendHandler|27|set message error System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at System.Net.WebClient.DownloadString(String address)
+   at Race.Locator.Positioning.DeviceMan.Handler.HttpSendHandler.SetMessage(Location loc) in C:\Users\Аауи\Desktop\джибиэсу\new\src\Code Libraries\Race.Locator.Positioning.DeviceMan.Handler\HttpSendHandler.cs:line 59
+15:41:45.385|ERROR|HttpSendHandler|36|set message error System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at System.Net.WebClient.DownloadString(String address)
+   at Race.Locator.Positioning.DeviceMan.Handler.HttpSendHandler.SetMessage(Location loc) in C:\Users\Аауи\Desktop\джибиэсу\new\src\Code Libraries\Race.Locator.Positioning.DeviceMan.Handler\HttpSendHandler.cs:line 59
+15:41:45.385|ERROR|HttpSendHandler|17|set message error System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at System.Net.WebClient.DownloadString(String address)
+   at Race.Locator.Positioning.DeviceMan.Handler.HttpSendHandler.SetMessage(Location loc) in C:\Users\Аауи\Desktop\джибиэсу\new\src\Code Libraries\Race.Locator.Positioning.DeviceMan.Handler\HttpSendHandler.cs:line 59
+15:41:45.385|ERROR|HttpSendHandler|34|set message error System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at System.Net.WebClient.DownloadString(String address)
+   at Race.Locator.Positioning.DeviceMan.Handler.HttpSendHandler.SetMessage(Location loc) in C:\Users\Аауи\Desktop\джибиэсу\new\src\Code Libraries\Race.Locator.Positioning.DeviceMan.Handler\HttpSendHandler.cs:line 59
+15:41:45.385|ERROR|HttpSendHandler|32|set message error System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at System.Net.WebClient.DownloadString(String address)
+   at Race.Locator.Positioning.DeviceMan.Handler.HttpSendHandler.SetMessage(Location loc) in C:\Users\Аауи\Desktop\джибиэсу\new\src\Code Libraries\Race.Locator.Positioning.DeviceMan.Handler\HttpSendHandler.cs:line 59
+15:41:45.385|ERROR|HttpSendHandler|22|set message error System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at System.Net.WebClient.DownloadString(String address)
+   at Race.Locator.Positioning.DeviceMan.Handler.HttpSendHandler.SetMessage(Location loc) in C:\Users\Аауи\Desktop\джибиэсу\new\src\Code Libraries\Race.Locator.Positioning.DeviceMan.Handler\HttpSendHandler.cs:line 59
+15:41:45.392|ERROR|HttpSendHandler|28|set message error System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at System.Net.WebClient.DownloadString(String address)
+   at Race.Locator.Positioning.DeviceMan.Handler.HttpSendHandler.SetMessage(Location loc) in C:\Users\Аауи\Desktop\джибиэсу\new\src\Code Libraries\Race.Locator.Positioning.DeviceMan.Handler\HttpSendHandler.cs:line 59
+15:41:45.392|ERROR|HttpSendHandler|31|set message error System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at System.Net.WebClient.DownloadString(String address)
+   at Race.Locator.Positioning.DeviceMan.Handler.HttpSendHandler.SetMessage(Location loc) in C:\Users\Аауи\Desktop\джибиэсу\new\src\Code Libraries\Race.Locator.Positioning.DeviceMan.Handler\HttpSendHandler.cs:line 59
+15:41:45.392|ERROR|HttpSendHandler|33|set message error System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at System.Net.WebClient.DownloadString(String address)
+   at Race.Locator.Positioning.DeviceMan.Handler.HttpSendHandler.SetMessage(Location loc) in C:\Users\Аауи\Desktop\джибиэсу\new\src\Code Libraries\Race.Locator.Positioning.DeviceMan.Handler\HttpSendHandler.cs:line 59
+15:41:45.392|ERROR|HttpSendHandler|35|set message error System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at System.Net.WebClient.DownloadString(String address)
+   at Race.Locator.Positioning.DeviceMan.Handler.HttpSendHandler.SetMessage(Location loc) in C:\Users\Аауи\Desktop\джибиэсу\new\src\Code Libraries\Race.Locator.Positioning.DeviceMan.Handler\HttpSendHandler.cs:line 59
+15:41:45.392|ERROR|HttpSendHandler|14|set message error System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at System.Net.WebClient.DownloadString(String address)
+   at Race.Locator.Positioning.DeviceMan.Handler.HttpSendHandler.SetMessage(Location loc) in C:\Users\Аауи\Desktop\джибиэсу\new\src\Code Libraries\Race.Locator.Positioning.DeviceMan.Handler\HttpSendHandler.cs:line 59
+18:51:25.638|ERROR|HttpSendHandler|14|set message error System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at System.Net.WebClient.DownloadString(String address)
+   at Race.Locator.Positioning.DeviceMan.Handler.HttpSendHandler.SetMessage(Location loc) in C:\Users\Аауи\Desktop\джибиэсу\new\src\Code Libraries\Race.Locator.Positioning.DeviceMan.Handler\HttpSendHandler.cs:line 59
+18:51:30.409|ERROR|HttpSendHandler|17|set message error System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at System.Net.WebClient.DownloadString(String address)
+   at Race.Locator.Positioning.DeviceMan.Handler.HttpSendHandler.SetMessage(Location loc) in C:\Users\Аауи\Desktop\джибиэсу\new\src\Code Libraries\Race.Locator.Positioning.DeviceMan.Handler\HttpSendHandler.cs:line 59
+18:51:34.446|ERROR|HttpSendHandler|16|set message error System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at System.Net.WebClient.DownloadString(String address)
+   at Race.Locator.Positioning.DeviceMan.Handler.HttpSendHandler.SetMessage(Location loc) in C:\Users\Аауи\Desktop\джибиэсу\new\src\Code Libraries\Race.Locator.Positioning.DeviceMan.Handler\HttpSendHandler.cs:line 59
+18:51:34.506|ERROR|HttpSendHandler|14|set message error System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at System.Net.WebClient.DownloadString(String address)
+   at Race.Locator.Positioning.DeviceMan.Handler.HttpSendHandler.SetMessage(Location loc) in C:\Users\Аауи\Desktop\джибиэсу\new\src\Code Libraries\Race.Locator.Positioning.DeviceMan.Handler\HttpSendHandler.cs:line 59
+18:51:34.506|ERROR|HttpSendHandler|12|set message error System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at System.Net.WebClient.DownloadString(String address)
+   at Race.Locator.Positioning.DeviceMan.Handler.HttpSendHandler.SetMessage(Location loc) in C:\Users\Аауи\Desktop\джибиэсу\new\src\Code Libraries\Race.Locator.Positioning.DeviceMan.Handler\HttpSendHandler.cs:line 59
+18:51:34.528|ERROR|HttpSendHandler|16|set message error System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at System.Net.WebClient.DownloadString(String address)
+   at Race.Locator.Positioning.DeviceMan.Handler.HttpSendHandler.SetMessage(Location loc) in C:\Users\Аауи\Desktop\джибиэсу\new\src\Code Libraries\Race.Locator.Positioning.DeviceMan.Handler\HttpSendHandler.cs:line 59
+18:51:34.572|ERROR|HttpSendHandler|12|set message error System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at System.Net.WebClient.DownloadString(String address)
+   at Race.Locator.Positioning.DeviceMan.Handler.HttpSendHandler.SetMessage(Location loc) in C:\Users\Аауи\Desktop\джибиэсу\new\src\Code Libraries\Race.Locator.Positioning.DeviceMan.Handler\HttpSendHandler.cs:line 59
+18:51:34.597|ERROR|HttpSendHandler|14|set message error System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at System.Net.WebClient.DownloadString(String address)
+   at Race.Locator.Positioning.DeviceMan.Handler.HttpSendHandler.SetMessage(Location loc) in C:\Users\Аауи\Desktop\джибиэсу\new\src\Code Libraries\Race.Locator.Positioning.DeviceMan.Handler\HttpSendHandler.cs:line 59
+18:51:34.601|ERROR|HttpSendHandler|16|set message error System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at System.Net.WebClient.DownloadString(String address)
+   at Race.Locator.Positioning.DeviceMan.Handler.HttpSendHandler.SetMessage(Location loc) in C:\Users\Аауи\Desktop\джибиэсу\new\src\Code Libraries\Race.Locator.Positioning.DeviceMan.Handler\HttpSendHandler.cs:line 59
+18:51:34.616|ERROR|HttpSendHandler|12|set message error System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at System.Net.WebClient.DownloadString(String address)
+   at Race.Locator.Positioning.DeviceMan.Handler.HttpSendHandler.SetMessage(Location loc) in C:\Users\Аауи\Desktop\джибиэсу\new\src\Code Libraries\Race.Locator.Positioning.DeviceMan.Handler\HttpSendHandler.cs:line 59
+18:51:34.655|ERROR|HttpSendHandler|14|set message error System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at System.Net.WebClient.DownloadString(String address)
+   at Race.Locator.Positioning.DeviceMan.Handler.HttpSendHandler.SetMessage(Location loc) in C:\Users\Аауи\Desktop\джибиэсу\new\src\Code Libraries\Race.Locator.Positioning.DeviceMan.Handler\HttpSendHandler.cs:line 59
+18:51:34.665|ERROR|HttpSendHandler|16|set message error System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at System.Net.WebClient.DownloadString(String address)
+   at Race.Locator.Positioning.DeviceMan.Handler.HttpSendHandler.SetMessage(Location loc) in C:\Users\Аауи\Desktop\джибиэсу\new\src\Code Libraries\Race.Locator.Positioning.DeviceMan.Handler\HttpSendHandler.cs:line 59
+18:51:34.713|ERROR|HttpSendHandler|12|set message error System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at System.Net.WebClient.DownloadString(String address)
+   at Race.Locator.Positioning.DeviceMan.Handler.HttpSendHandler.SetMessage(Location loc) in C:\Users\Аауи\Desktop\джибиэсу\new\src\Code Libraries\Race.Locator.Positioning.DeviceMan.Handler\HttpSendHandler.cs:line 59
+18:51:34.734|ERROR|HttpSendHandler|16|set message error System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at System.Net.WebClient.DownloadString(String address)
+   at Race.Locator.Positioning.DeviceMan.Handler.HttpSendHandler.SetMessage(Location loc) in C:\Users\Аауи\Desktop\джибиэсу\new\src\Code Libraries\Race.Locator.Positioning.DeviceMan.Handler\HttpSendHandler.cs:line 59
+18:51:34.741|ERROR|HttpSendHandler|14|set message error System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at System.Net.WebClient.DownloadString(String address)
+   at Race.Locator.Positioning.DeviceMan.Handler.HttpSendHandler.SetMessage(Location loc) in C:\Users\Аауи\Desktop\джибиэсу\new\src\Code Libraries\Race.Locator.Positioning.DeviceMan.Handler\HttpSendHandler.cs:line 59
+18:51:34.776|ERROR|HttpSendHandler|17|set message error System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at System.Net.WebClient.DownloadString(String address)
+   at Race.Locator.Positioning.DeviceMan.Handler.HttpSendHandler.SetMessage(Location loc) in C:\Users\Аауи\Desktop\джибиэсу\new\src\Code Libraries\Race.Locator.Positioning.DeviceMan.Handler\HttpSendHandler.cs:line 59
+18:51:34.776|ERROR|HttpSendHandler|12|set message error System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at System.Net.WebClient.DownloadString(String address)
+   at Race.Locator.Positioning.DeviceMan.Handler.HttpSendHandler.SetMessage(Location loc) in C:\Users\Аауи\Desktop\джибиэсу\new\src\Code Libraries\Race.Locator.Positioning.DeviceMan.Handler\HttpSendHandler.cs:line 59
+18:51:34.799|ERROR|HttpSendHandler|14|set message error System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at System.Net.WebClient.DownloadString(String address)
+   at Race.Locator.Positioning.DeviceMan.Handler.HttpSendHandler.SetMessage(Location loc) in C:\Users\Аауи\Desktop\джибиэсу\new\src\Code Libraries\Race.Locator.Positioning.DeviceMan.Handler\HttpSendHandler.cs:line 59
+18:51:34.799|ERROR|HttpSendHandler|16|set message error System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at System.Net.WebClient.DownloadString(String address)
+   at Race.Locator.Positioning.DeviceMan.Handler.HttpSendHandler.SetMessage(Location loc) in C:\Users\Аауи\Desktop\джибиэсу\new\src\Code Libraries\Race.Locator.Positioning.DeviceMan.Handler\HttpSendHandler.cs:line 59
+18:51:34.838|ERROR|HttpSendHandler|12|set message error System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at System.Net.WebClient.DownloadString(String address)
+   at Race.Locator.Positioning.DeviceMan.Handler.HttpSendHandler.SetMessage(Location loc) in C:\Users\Аауи\Desktop\джибиэсу\new\src\Code Libraries\Race.Locator.Positioning.DeviceMan.Handler\HttpSendHandler.cs:line 59
+18:51:34.854|ERROR|HttpSendHandler|16|set message error System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at System.Net.WebClient.DownloadString(String address)
+   at Race.Locator.Positioning.DeviceMan.Handler.HttpSendHandler.SetMessage(Location loc) in C:\Users\Аауи\Desktop\джибиэсу\new\src\Code Libraries\Race.Locator.Positioning.DeviceMan.Handler\HttpSendHandler.cs:line 59
+18:51:34.854|ERROR|HttpSendHandler|14|set message error System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at System.Net.WebClient.DownloadString(String address)
+   at Race.Locator.Positioning.DeviceMan.Handler.HttpSendHandler.SetMessage(Location loc) in C:\Users\Аауи\Desktop\джибиэсу\new\src\Code Libraries\Race.Locator.Positioning.DeviceMan.Handler\HttpSendHandler.cs:line 59
+18:51:34.891|ERROR|HttpSendHandler|12|set message error System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at System.Net.WebClient.DownloadString(String address)
+   at Race.Locator.Positioning.DeviceMan.Handler.HttpSendHandler.SetMessage(Location loc) in C:\Users\Аауи\Desktop\джибиэсу\new\src\Code Libraries\Race.Locator.Positioning.DeviceMan.Handler\HttpSendHandler.cs:line 59
+18:51:34.913|ERROR|HttpSendHandler|16|set message error System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at System.Net.WebClient.DownloadString(String address)
+   at Race.Locator.Positioning.DeviceMan.Handler.HttpSendHandler.SetMessage(Location loc) in C:\Users\Аауи\Desktop\джибиэсу\new\src\Code Libraries\Race.Locator.Positioning.DeviceMan.Handler\HttpSendHandler.cs:line 59
+18:51:34.976|ERROR|HttpSendHandler|14|set message error System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at System.Net.WebClient.DownloadString(String address)
+   at Race.Locator.Positioning.DeviceMan.Handler.HttpSendHandler.SetMessage(Location loc) in C:\Users\Аауи\Desktop\джибиэсу\new\src\Code Libraries\Race.Locator.Positioning.DeviceMan.Handler\HttpSendHandler.cs:line 59
+18:51:34.976|ERROR|HttpSendHandler|12|set message error System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at System.Net.WebClient.DownloadString(String address)
+   at Race.Locator.Positioning.DeviceMan.Handler.HttpSendHandler.SetMessage(Location loc) in C:\Users\Аауи\Desktop\джибиэсу\new\src\Code Libraries\Race.Locator.Positioning.DeviceMan.Handler\HttpSendHandler.cs:line 59
+18:51:34.976|ERROR|HttpSendHandler|16|set message error System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at System.Net.WebClient.DownloadString(String address)
+   at Race.Locator.Positioning.DeviceMan.Handler.HttpSendHandler.SetMessage(Location loc) in C:\Users\Аауи\Desktop\джибиэсу\new\src\Code Libraries\Race.Locator.Positioning.DeviceMan.Handler\HttpSendHandler.cs:line 59
+18:51:34.976|ERROR|HttpSendHandler|17|set message error System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at System.Net.WebClient.DownloadString(String address)
+   at Race.Locator.Positioning.DeviceMan.Handler.HttpSendHandler.SetMessage(Location loc) in C:\Users\Аауи\Desktop\джибиэсу\new\src\Code Libraries\Race.Locator.Positioning.DeviceMan.Handler\HttpSendHandler.cs:line 59
+18:51:35.028|ERROR|HttpSendHandler|17|set message error System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at System.Net.WebClient.DownloadString(String address)
+   at Race.Locator.Positioning.DeviceMan.Handler.HttpSendHandler.SetMessage(Location loc) in C:\Users\Аауи\Desktop\джибиэсу\new\src\Code Libraries\Race.Locator.Positioning.DeviceMan.Handler\HttpSendHandler.cs:line 59
+18:51:35.028|ERROR|HttpSendHandler|12|set message error System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at System.Net.WebClient.DownloadString(String address)
+   at Race.Locator.Positioning.DeviceMan.Handler.HttpSendHandler.SetMessage(Location loc) in C:\Users\Аауи\Desktop\джибиэсу\new\src\Code Libraries\Race.Locator.Positioning.DeviceMan.Handler\HttpSendHandler.cs:line 59
+18:51:38.440|ERROR|HttpSendHandler|12|set message error System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at System.Net.WebClient.DownloadString(String address)
+   at Race.Locator.Positioning.DeviceMan.Handler.HttpSendHandler.SetMessage(Location loc) in C:\Users\Аауи\Desktop\джибиэсу\new\src\Code Libraries\Race.Locator.Positioning.DeviceMan.Handler\HttpSendHandler.cs:line 59
+18:51:38.461|ERROR|HttpSendHandler|18|set message error System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at System.Net.WebClient.DownloadString(String address)
+   at Race.Locator.Positioning.DeviceMan.Handler.HttpSendHandler.SetMessage(Location loc) in C:\Users\Аауи\Desktop\джибиэсу\new\src\Code Libraries\Race.Locator.Positioning.DeviceMan.Handler\HttpSendHandler.cs:line 59
+18:51:38.468|ERROR|HttpSendHandler|17|set message error System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at System.Net.WebClient.DownloadString(String address)
+   at Race.Locator.Positioning.DeviceMan.Handler.HttpSendHandler.SetMessage(Location loc) in C:\Users\Аауи\Desktop\джибиэсу\new\src\Code Libraries\Race.Locator.Positioning.DeviceMan.Handler\HttpSendHandler.cs:line 59
+18:51:38.468|ERROR|HttpSendHandler|13|set message error System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at System.Net.WebClient.DownloadString(String address)
+   at Race.Locator.Positioning.DeviceMan.Handler.HttpSendHandler.SetMessage(Location loc) in C:\Users\Аауи\Desktop\джибиэсу\new\src\Code Libraries\Race.Locator.Positioning.DeviceMan.Handler\HttpSendHandler.cs:line 59
+18:51:38.468|ERROR|HttpSendHandler|11|set message error System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at System.Net.WebClient.DownloadString(String address)
+   at Race.Locator.Positioning.DeviceMan.Handler.HttpSendHandler.SetMessage(Location loc) in C:\Users\Аауи\Desktop\джибиэсу\new\src\Code Libraries\Race.Locator.Positioning.DeviceMan.Handler\HttpSendHandler.cs:line 59
+18:51:38.496|ERROR|HttpSendHandler|16|set message error System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at System.Net.WebClient.DownloadString(String address)
+   at Race.Locator.Positioning.DeviceMan.Handler.HttpSendHandler.SetMessage(Location loc) in C:\Users\Аауи\Desktop\джибиэсу\new\src\Code Libraries\Race.Locator.Positioning.DeviceMan.Handler\HttpSendHandler.cs:line 59
+18:51:38.503|ERROR|HttpSendHandler|7|set message error System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at System.Net.WebClient.DownloadString(String address)
+   at Race.Locator.Positioning.DeviceMan.Handler.HttpSendHandler.SetMessage(Location loc) in C:\Users\Аауи\Desktop\джибиэсу\new\src\Code Libraries\Race.Locator.Positioning.DeviceMan.Handler\HttpSendHandler.cs:line 59
+18:51:38.553|ERROR|HttpSendHandler|12|set message error System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at System.Net.WebClient.DownloadString(String address)
+   at Race.Locator.Positioning.DeviceMan.Handler.HttpSendHandler.SetMessage(Location loc) in C:\Users\Аауи\Desktop\джибиэсу\new\src\Code Libraries\Race.Locator.Positioning.DeviceMan.Handler\HttpSendHandler.cs:line 59
+18:51:38.553|ERROR|HttpSendHandler|18|set message error System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at System.Net.WebClient.DownloadString(String address)
+   at Race.Locator.Positioning.DeviceMan.Handler.HttpSendHandler.SetMessage(Location loc) in C:\Users\Аауи\Desktop\джибиэсу\new\src\Code Libraries\Race.Locator.Positioning.DeviceMan.Handler\HttpSendHandler.cs:line 59
+18:51:38.569|ERROR|HttpSendHandler|13|set message error System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at System.Net.WebClient.DownloadString(String address)
+   at Race.Locator.Positioning.DeviceMan.Handler.HttpSendHandler.SetMessage(Location loc) in C:\Users\Аауи\Desktop\джибиэсу\new\src\Code Libraries\Race.Locator.Positioning.DeviceMan.Handler\HttpSendHandler.cs:line 59
+18:51:38.569|ERROR|HttpSendHandler|17|set message error System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at System.Net.WebClient.DownloadString(String address)
+   at Race.Locator.Positioning.DeviceMan.Handler.HttpSendHandler.SetMessage(Location loc) in C:\Users\Аауи\Desktop\джибиэсу\new\src\Code Libraries\Race.Locator.Positioning.DeviceMan.Handler\HttpSendHandler.cs:line 59
+18:51:38.578|ERROR|HttpSendHandler|16|set message error System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at System.Net.WebClient.DownloadString(String address)
+   at Race.Locator.Positioning.DeviceMan.Handler.HttpSendHandler.SetMessage(Location loc) in C:\Users\Аауи\Desktop\джибиэсу\new\src\Code Libraries\Race.Locator.Positioning.DeviceMan.Handler\HttpSendHandler.cs:line 59
+18:51:38.593|ERROR|HttpSendHandler|7|set message error System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at System.Net.WebClient.DownloadString(String address)
+   at Race.Locator.Positioning.DeviceMan.Handler.HttpSendHandler.SetMessage(Location loc) in C:\Users\Аауи\Desktop\джибиэсу\new\src\Code Libraries\Race.Locator.Positioning.DeviceMan.Handler\HttpSendHandler.cs:line 59
+18:51:38.628|ERROR|HttpSendHandler|17|set message error System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at System.Net.WebClient.DownloadString(String address)
+   at Race.Locator.Positioning.DeviceMan.Handler.HttpSendHandler.SetMessage(Location loc) in C:\Users\Аауи\Desktop\джибиэсу\new\src\Code Libraries\Race.Locator.Positioning.DeviceMan.Handler\HttpSendHandler.cs:line 59
+18:51:38.641|ERROR|HttpSendHandler|16|set message error System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at System.Net.WebClient.DownloadString(String address)
+   at Race.Locator.Positioning.DeviceMan.Handler.HttpSendHandler.SetMessage(Location loc) in C:\Users\Аауи\Desktop\джибиэсу\new\src\Code Libraries\Race.Locator.Positioning.DeviceMan.Handler\HttpSendHandler.cs:line 59
+18:51:38.658|ERROR|HttpSendHandler|7|set message error System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at System.Net.WebClient.DownloadString(String address)
+   at Race.Locator.Positioning.DeviceMan.Handler.HttpSendHandler.SetMessage(Location loc) in C:\Users\Аауи\Desktop\джибиэсу\new\src\Code Libraries\Race.Locator.Positioning.DeviceMan.Handler\HttpSendHandler.cs:line 59
+18:51:38.707|ERROR|HttpSendHandler|7|set message error System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at System.Net.WebClient.DownloadString(String address)
+   at Race.Locator.Positioning.DeviceMan.Handler.HttpSendHandler.SetMessage(Location loc) in C:\Users\Аауи\Desktop\джибиэсу\new\src\Code Libraries\Race.Locator.Positioning.DeviceMan.Handler\HttpSendHandler.cs:line 59
+18:51:38.707|ERROR|HttpSendHandler|17|set message error System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at System.Net.WebClient.DownloadString(String address)
+   at Race.Locator.Positioning.DeviceMan.Handler.HttpSendHandler.SetMessage(Location loc) in C:\Users\Аауи\Desktop\джибиэсу\new\src\Code Libraries\Race.Locator.Positioning.DeviceMan.Handler\HttpSendHandler.cs:line 59
+18:51:38.707|ERROR|HttpSendHandler|16|set message error System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at System.Net.WebClient.DownloadString(String address)
+   at Race.Locator.Positioning.DeviceMan.Handler.HttpSendHandler.SetMessage(Location loc) in C:\Users\Аауи\Desktop\джибиэсу\new\src\Code Libraries\Race.Locator.Positioning.DeviceMan.Handler\HttpSendHandler.cs:line 59
+18:51:45.758|ERROR|HttpSendHandler|7|set message error System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at System.Net.WebClient.DownloadString(String address)
+   at Race.Locator.Positioning.DeviceMan.Handler.HttpSendHandler.SetMessage(Location loc) in C:\Users\Аауи\Desktop\джибиэсу\new\src\Code Libraries\Race.Locator.Positioning.DeviceMan.Handler\HttpSendHandler.cs:line 59
+18:52:01.445|ERROR|HttpSendHandler|14|set message error System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at System.Net.WebClient.DownloadString(String address)
+   at Race.Locator.Positioning.DeviceMan.Handler.HttpSendHandler.SetMessage(Location loc) in C:\Users\Аауи\Desktop\джибиэсу\new\src\Code Libraries\Race.Locator.Positioning.DeviceMan.Handler\HttpSendHandler.cs:line 59
+18:52:06.013|ERROR|HttpSendHandler|14|set message error System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at System.Net.WebClient.DownloadString(String address)
+   at Race.Locator.Positioning.DeviceMan.Handler.HttpSendHandler.SetMessage(Location loc) in C:\Users\Аауи\Desktop\джибиэсу\new\src\Code Libraries\Race.Locator.Positioning.DeviceMan.Handler\HttpSendHandler.cs:line 59
+18:52:15.862|ERROR|HttpSendHandler|16|set message error System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at System.Net.WebClient.DownloadString(String address)
+   at Race.Locator.Positioning.DeviceMan.Handler.HttpSendHandler.SetMessage(Location loc) in C:\Users\Аауи\Desktop\джибиэсу\new\src\Code Libraries\Race.Locator.Positioning.DeviceMan.Handler\HttpSendHandler.cs:line 59
+18:52:25.849|ERROR|HttpSendHandler|14|set message error System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at System.Net.WebClient.DownloadString(String address)
+   at Race.Locator.Positioning.DeviceMan.Handler.HttpSendHandler.SetMessage(Location loc) in C:\Users\Аауи\Desktop\джибиэсу\new\src\Code Libraries\Race.Locator.Positioning.DeviceMan.Handler\HttpSendHandler.cs:line 59

@@ -1,0 +1,127 @@
+09:48:34.335|INFO|DeviceManService|10|Starting service. 
+09:48:34.371|INFO|RequestDispatcher|10|Initialization started 
+09:48:34.371|INFO|RequestDispatcher|10|Executing path : C:\Users\Аауи\Desktop\джибиэсу\new\src\WinServices\Race.Locator.Positioning.DeviceMan.Service\bin\Debug 
+09:48:34.371|INFO|RequestDispatcher|10|Device handlers file path : config\\DeviceHandlers.xml 
+09:48:34.410|INFO|RequestDispatcher|10|Device handler Race.Locator.Positioning.DeviceMan.Handler.Gt02Handler loaded 
+09:48:34.410|INFO|RequestDispatcher|10|System handlers file path : config\\SystemHandlers.xml 
+09:48:34.422|INFO|RequestDispatcher|10|System handler Race.Locator.Positioning.DeviceMan.Handler.HttpSendHandler loaded 
+09:48:34.422|INFO|RequestDispatcher|10|Initialization comlete 
+09:48:34.422|INFO|RequestDispatcher|10|Service starting... 
+09:48:34.437|INFO|RequestDispatcher|10|Device handler Race.Locator.Positioning.DeviceMan.Handler.Gt02Handler started 
+09:48:34.437|INFO|DeviceManService|10|Service started. 
+09:48:37.435|INFO|DeviceManService|10|Stopping service. 
+09:48:37.435|INFO|RequestDispatcher|10|Service stopping... 
+09:48:37.435|INFO|RequestDispatcher|10|Device handler Race.Locator.Positioning.DeviceMan.Handler.Gt02Handler stopped 
+09:48:42.444|INFO|RequestDispatcher|10|Service stopped. 
+09:50:13.723|INFO|DeviceManService|9|Starting service. 
+09:50:13.775|INFO|RequestDispatcher|9|Initialization started 
+09:50:13.775|INFO|RequestDispatcher|9|Executing path : C:\Users\Аауи\Desktop\джибиэсу\new\src\WinServices\Race.Locator.Positioning.DeviceMan.Service\bin\Debug 
+09:50:13.775|INFO|RequestDispatcher|9|Device handlers file path : config\\DeviceHandlers.xml 
+09:50:13.814|INFO|RequestDispatcher|9|Device handler Race.Locator.Positioning.DeviceMan.Handler.Gt02Handler loaded 
+09:50:13.814|INFO|RequestDispatcher|9|System handlers file path : config\\SystemHandlers.xml 
+09:50:13.826|INFO|RequestDispatcher|9|System handler Race.Locator.Positioning.DeviceMan.Handler.HttpSendHandler loaded 
+09:50:13.826|INFO|RequestDispatcher|9|Initialization comlete 
+09:50:13.826|INFO|RequestDispatcher|9|Service starting... 
+09:50:13.842|INFO|RequestDispatcher|9|Device handler Race.Locator.Positioning.DeviceMan.Handler.Gt02Handler started 
+09:50:13.842|INFO|DeviceManService|9|Service started. 
+09:50:54.792|DEBUG|Gt02Handler|15|Client Connected: 1 
+09:50:55.036|DEBUG|Gt02WireProtocol|19|receive data: 68-68-25-14-55-08-64-71-70-03-45-58-33-00-01-10-0D-01-0F-14-23-16-06-17-CE-D1-04-2A-42-29-00-00-32-01-61-6F-00-00-00-07-0D-0A 
+09:50:55.038|DEBUG|Gt02WireProtocol|19|Received appropriate head bytes 104 104 
+09:50:55.038|DEBUG|Gt02WireProtocol|19|message length is 37 
+09:50:55.124|DEBUG|Gt02WireProtocol|19|Date: 15.01.2013 20:35:22 
+09:50:55.124|DEBUG|Gt02WireProtocol|19|Latitude: 56,7908716666667 
+09:50:55.124|DEBUG|Gt02WireProtocol|19|Longitude: 38,821285 
+09:50:55.124|DEBUG|Gt02WireProtocol|19|Speed: 0 
+09:50:55.124|DEBUG|Gt02WireProtocol|19|Direction: 50 
+09:50:55.124|DEBUG|Gt02WireProtocol|19|Data 54-68-1A-0D-0A 
+09:50:55.124|DEBUG|Gt02Handler|19|gt02 sent: 54-68-1A-0D-0A 
+09:50:55.138|DEBUG|RequestDispatcher|19|incoming message: [Location: (IMEI=0864717003455833)(IsValid=True)(Lon=38,821285)(Lat=56,7908716666667)(Angle=5000)(Velocity=0)(PositionDate=15.01.2013 20:35:22)(Sensors=0)(Version=)(Satn=0)(Satk=0)(AccelMaxNeg=0)(AccelMaxPos=0)(MaxSpeed=0)(Distance=0)(DistanceDiff=0)(GsmRssi=0)(MsgNum=1)(TerminalDate=15.01.2013 20:35:22)(TerminalID=0)(Timestamp=01.01.0001 0:00:00)(FTemp=0)(BoardTemp=0)(AipVolt=0)(PowerVolt=0)(FSensor=0)(SumSensors=0)(HDop=0)(GpsSatNum=0)(GlonasSatNum=0)(Parameters=)] 
+09:50:55.160|DEBUG|HttpSendHandler|16|send to http://dev.asmsai.ru/asmsai.b2b/location.aspx?boardId=0864717003455833&version=&channel=gprs&msgNum=1&Sensors=0&sumSensors=0&longitude=38.492771&latitude=56.474523&boardTime=2013-01-15T20:35:22&gpsTime=2013-01-15T20:35:22&speed=0&maxSpeed=0&course=500000&isValid=True&satn=0&satk=0&gsmRssi=0&distance=0&distanceDiff=0&accelMaxNeg=0&accelMaxPos=0&fsensor=0&aipVolt=0&boardTemp=0&powerVolt=0&HDop=0&GpsSatNum=0&GlonasSatNum=0 message 
+09:50:58.596|INFO|HttpSendHandler|16|answer from server: OK 
+09:51:05.296|DEBUG|Gt02WireProtocol|19|receive data: 68-68-25-14-55-08-64-71-70-03-45-58-33-00-02-10-0D-01-0F-14-23-16-06-17-CE-D1-04-2A-42-29-00-00-32-01-61-6F-00-00-00-07-0D-0A 
+09:51:05.296|DEBUG|Gt02WireProtocol|19|Received appropriate head bytes 104 104 
+09:51:05.296|DEBUG|Gt02WireProtocol|19|message length is 37 
+09:51:05.296|DEBUG|Gt02WireProtocol|19|Date: 15.01.2013 20:35:22 
+09:51:05.296|DEBUG|Gt02WireProtocol|19|Latitude: 56,7908716666667 
+09:51:05.296|DEBUG|Gt02WireProtocol|19|Longitude: 38,821285 
+09:51:05.296|DEBUG|Gt02WireProtocol|19|Speed: 0 
+09:51:05.296|DEBUG|Gt02WireProtocol|19|Direction: 50 
+09:51:05.296|DEBUG|Gt02WireProtocol|19|Data 54-68-1A-0D-0A 
+09:51:05.296|DEBUG|Gt02Handler|19|gt02 sent: 54-68-1A-0D-0A 
+09:51:05.296|DEBUG|RequestDispatcher|19|incoming message: [Location: (IMEI=0864717003455833)(IsValid=True)(Lon=38,821285)(Lat=56,7908716666667)(Angle=5000)(Velocity=0)(PositionDate=15.01.2013 20:35:22)(Sensors=0)(Version=)(Satn=0)(Satk=0)(AccelMaxNeg=0)(AccelMaxPos=0)(MaxSpeed=0)(Distance=0)(DistanceDiff=0)(GsmRssi=0)(MsgNum=2)(TerminalDate=15.01.2013 20:35:22)(TerminalID=0)(Timestamp=01.01.0001 0:00:00)(FTemp=0)(BoardTemp=0)(AipVolt=0)(PowerVolt=0)(FSensor=0)(SumSensors=0)(HDop=0)(GpsSatNum=0)(GlonasSatNum=0)(Parameters=)] 
+09:51:05.296|DEBUG|HttpSendHandler|16|send to http://dev.asmsai.ru/asmsai.b2b/location.aspx?boardId=0864717003455833&version=&channel=gprs&msgNum=2&Sensors=0&sumSensors=0&longitude=38.492771&latitude=56.474523&boardTime=2013-01-15T20:35:22&gpsTime=2013-01-15T20:35:22&speed=0&maxSpeed=0&course=500000&isValid=True&satn=0&satk=0&gsmRssi=0&distance=0&distanceDiff=0&accelMaxNeg=0&accelMaxPos=0&fsensor=0&aipVolt=0&boardTemp=0&powerVolt=0&HDop=0&GpsSatNum=0&GlonasSatNum=0 message 
+09:51:05.507|INFO|HttpSendHandler|16|answer from server: OK 
+09:51:15.387|DEBUG|Gt02WireProtocol|19|receive data: 68-68-25-14-55-08-64-71-70-03-45-58-33-00-03-10-0D-01-0F-14-23-16-06-17-CE-D1-04-2A-42-29-00-00-32-01-61-6F-00-00-00-07-0D-0A 
+09:51:15.387|DEBUG|Gt02WireProtocol|19|Received appropriate head bytes 104 104 
+09:51:15.387|DEBUG|Gt02WireProtocol|19|message length is 37 
+09:51:15.387|DEBUG|Gt02WireProtocol|19|Date: 15.01.2013 20:35:22 
+09:51:15.387|DEBUG|Gt02WireProtocol|19|Latitude: 56,7908716666667 
+09:51:15.387|DEBUG|Gt02WireProtocol|19|Longitude: 38,821285 
+09:51:15.387|DEBUG|Gt02WireProtocol|19|Speed: 0 
+09:51:15.387|DEBUG|Gt02WireProtocol|19|Direction: 50 
+09:51:15.387|DEBUG|Gt02WireProtocol|19|Data 54-68-1A-0D-0A 
+09:51:15.387|DEBUG|Gt02Handler|19|gt02 sent: 54-68-1A-0D-0A 
+09:51:15.387|DEBUG|RequestDispatcher|19|incoming message: [Location: (IMEI=0864717003455833)(IsValid=True)(Lon=38,821285)(Lat=56,7908716666667)(Angle=5000)(Velocity=0)(PositionDate=15.01.2013 20:35:22)(Sensors=0)(Version=)(Satn=0)(Satk=0)(AccelMaxNeg=0)(AccelMaxPos=0)(MaxSpeed=0)(Distance=0)(DistanceDiff=0)(GsmRssi=0)(MsgNum=3)(TerminalDate=15.01.2013 20:35:22)(TerminalID=0)(Timestamp=01.01.0001 0:00:00)(FTemp=0)(BoardTemp=0)(AipVolt=0)(PowerVolt=0)(FSensor=0)(SumSensors=0)(HDop=0)(GpsSatNum=0)(GlonasSatNum=0)(Parameters=)] 
+09:51:15.387|DEBUG|HttpSendHandler|17|send to http://dev.asmsai.ru/asmsai.b2b/location.aspx?boardId=0864717003455833&version=&channel=gprs&msgNum=3&Sensors=0&sumSensors=0&longitude=38.492771&latitude=56.474523&boardTime=2013-01-15T20:35:22&gpsTime=2013-01-15T20:35:22&speed=0&maxSpeed=0&course=500000&isValid=True&satn=0&satk=0&gsmRssi=0&distance=0&distanceDiff=0&accelMaxNeg=0&accelMaxPos=0&fsensor=0&aipVolt=0&boardTemp=0&powerVolt=0&HDop=0&GpsSatNum=0&GlonasSatNum=0 message 
+09:51:15.646|INFO|HttpSendHandler|17|answer from server: OK 
+09:51:25.180|DEBUG|Gt02WireProtocol|19|receive data: 68-68-25-14-55-08-64-71-70-03-45-58-33-00-04-10-0D-01-0F-14-23-16-06-17-CE-D1-04-2A-42-29-00-00-32-01-61-6F-00-00-00-07-0D-0A 
+09:51:25.180|DEBUG|Gt02WireProtocol|19|Received appropriate head bytes 104 104 
+09:51:25.180|DEBUG|Gt02WireProtocol|19|message length is 37 
+09:51:25.180|DEBUG|Gt02WireProtocol|19|Date: 15.01.2013 20:35:22 
+09:51:25.180|DEBUG|Gt02WireProtocol|19|Latitude: 56,7908716666667 
+09:51:25.180|DEBUG|Gt02WireProtocol|19|Longitude: 38,821285 
+09:51:25.180|DEBUG|Gt02WireProtocol|19|Speed: 0 
+09:51:25.180|DEBUG|Gt02WireProtocol|19|Direction: 50 
+09:51:25.180|DEBUG|Gt02WireProtocol|19|Data 54-68-1A-0D-0A 
+09:51:25.180|DEBUG|Gt02Handler|19|gt02 sent: 54-68-1A-0D-0A 
+09:51:25.180|DEBUG|RequestDispatcher|19|incoming message: [Location: (IMEI=0864717003455833)(IsValid=True)(Lon=38,821285)(Lat=56,7908716666667)(Angle=5000)(Velocity=0)(PositionDate=15.01.2013 20:35:22)(Sensors=0)(Version=)(Satn=0)(Satk=0)(AccelMaxNeg=0)(AccelMaxPos=0)(MaxSpeed=0)(Distance=0)(DistanceDiff=0)(GsmRssi=0)(MsgNum=4)(TerminalDate=15.01.2013 20:35:22)(TerminalID=0)(Timestamp=01.01.0001 0:00:00)(FTemp=0)(BoardTemp=0)(AipVolt=0)(PowerVolt=0)(FSensor=0)(SumSensors=0)(HDop=0)(GpsSatNum=0)(GlonasSatNum=0)(Parameters=)] 
+09:51:25.180|DEBUG|HttpSendHandler|17|send to http://dev.asmsai.ru/asmsai.b2b/location.aspx?boardId=0864717003455833&version=&channel=gprs&msgNum=4&Sensors=0&sumSensors=0&longitude=38.492771&latitude=56.474523&boardTime=2013-01-15T20:35:22&gpsTime=2013-01-15T20:35:22&speed=0&maxSpeed=0&course=500000&isValid=True&satn=0&satk=0&gsmRssi=0&distance=0&distanceDiff=0&accelMaxNeg=0&accelMaxPos=0&fsensor=0&aipVolt=0&boardTemp=0&powerVolt=0&HDop=0&GpsSatNum=0&GlonasSatNum=0 message 
+09:51:25.376|INFO|HttpSendHandler|17|answer from server: OK 
+09:51:26.964|INFO|DeviceManService|9|Stopping service. 
+09:51:26.964|INFO|RequestDispatcher|9|Service stopping... 
+09:51:27.012|DEBUG|Gt02Handler|9|Client Disconnected: 1,  
+09:51:27.012|INFO|RequestDispatcher|9|Device handler Race.Locator.Positioning.DeviceMan.Handler.Gt02Handler stopped 
+09:51:32.013|INFO|RequestDispatcher|9|Service stopped. 
+09:55:21.040|INFO|DeviceManService|9|Starting service. 
+09:55:21.085|INFO|RequestDispatcher|9|Initialization started 
+09:55:21.085|INFO|RequestDispatcher|9|Executing path : C:\Users\Аауи\Desktop\джибиэсу\new\src\WinServices\Race.Locator.Positioning.DeviceMan.Service\bin\Debug 
+09:55:21.085|INFO|RequestDispatcher|9|Device handlers file path : config\\DeviceHandlers.xml 
+09:55:21.126|INFO|RequestDispatcher|9|Device handler Race.Locator.Positioning.DeviceMan.Handler.Gt02Handler loaded 
+09:55:21.126|INFO|RequestDispatcher|9|System handlers file path : config\\SystemHandlers.xml 
+09:55:21.137|INFO|RequestDispatcher|9|System handler Race.Locator.Positioning.DeviceMan.Handler.HttpSendHandler loaded 
+09:55:21.137|INFO|RequestDispatcher|9|Initialization comlete 
+09:55:21.137|INFO|RequestDispatcher|9|Service starting... 
+09:55:21.154|INFO|RequestDispatcher|9|Device handler Race.Locator.Positioning.DeviceMan.Handler.Gt02Handler started 
+09:55:21.154|INFO|DeviceManService|9|Service started. 
+09:56:00.754|DEBUG|Gt02Handler|15|Client Connected: 1 
+09:56:00.786|DEBUG|Gt02WireProtocol|17|receive data: 68-68-25-14-55-08-64-71-70-03-45-58-33-00-01-10-0D-01-0F-14-23-16-06-17-CE-D1-04-2A-42-29-00-00-32-01-61-6F-00-00-00-07-0D-0A 
+09:56:00.786|DEBUG|Gt02WireProtocol|17|Received appropriate head bytes 104 104 
+09:56:00.786|DEBUG|Gt02WireProtocol|17|message length is 37 
+09:56:00.807|DEBUG|Gt02WireProtocol|17|Date: 15.01.2013 20:35:22 
+09:56:00.807|DEBUG|Gt02WireProtocol|17|Latitude: 56,7908716666667 
+09:56:00.807|DEBUG|Gt02WireProtocol|17|Longitude: 38,821285 
+09:56:00.807|DEBUG|Gt02WireProtocol|17|Speed: 0 
+09:56:00.807|DEBUG|Gt02WireProtocol|17|Direction: 50 
+09:56:00.807|DEBUG|Gt02WireProtocol|17|Data 54-68-1A-0D-0A 
+09:56:00.807|DEBUG|Gt02Handler|17|gt02 sent: 54-68-1A-0D-0A 
+09:56:00.817|DEBUG|RequestDispatcher|17|incoming message: [Location: (IMEI=0864717003455833)(IsValid=True)(Lon=38,821285)(Lat=56,7908716666667)(Angle=50)(Velocity=0)(PositionDate=15.01.2013 20:35:22)(Sensors=0)(Version=)(Satn=0)(Satk=0)(AccelMaxNeg=0)(AccelMaxPos=0)(MaxSpeed=0)(Distance=0)(DistanceDiff=0)(GsmRssi=0)(MsgNum=1)(TerminalDate=15.01.2013 20:35:22)(TerminalID=0)(Timestamp=01.01.0001 0:00:00)(FTemp=0)(BoardTemp=0)(AipVolt=0)(PowerVolt=0)(FSensor=0)(SumSensors=0)(HDop=0)(GpsSatNum=0)(GlonasSatNum=0)(Parameters=)] 
+09:56:00.817|DEBUG|HttpSendHandler|16|send to http://dev.asmsai.ru/asmsai.b2b/location.aspx?boardId=0864717003455833&version=&channel=gprs&msgNum=1&Sensors=0&sumSensors=0&longitude=38.492771&latitude=56.474523&boardTime=2013-01-15T20:35:22&gpsTime=2013-01-15T20:35:22&speed=0&maxSpeed=0&course=5000&isValid=True&satn=0&satk=0&gsmRssi=0&distance=0&distanceDiff=0&accelMaxNeg=0&accelMaxPos=0&fsensor=0&aipVolt=0&boardTemp=0&powerVolt=0&HDop=0&GpsSatNum=0&GlonasSatNum=0 message 
+09:56:03.420|INFO|HttpSendHandler|16|answer from server: OK 
+09:56:11.149|DEBUG|Gt02WireProtocol|17|receive data: 68-68-25-14-55-08-64-71-70-03-45-58-33-00-02-10-0D-01-0F-14-23-16-06-17-CE-D1-04-2A-42-29-00-00-32-01-61-6F-00-00-00-07-0D-0A 
+09:56:11.149|DEBUG|Gt02WireProtocol|17|Received appropriate head bytes 104 104 
+09:56:11.149|DEBUG|Gt02WireProtocol|17|message length is 37 
+09:56:11.149|DEBUG|Gt02WireProtocol|17|Date: 15.01.2013 20:35:22 
+09:56:11.149|DEBUG|Gt02WireProtocol|17|Latitude: 56,7908716666667 
+09:56:11.149|DEBUG|Gt02WireProtocol|17|Longitude: 38,821285 
+09:56:11.149|DEBUG|Gt02WireProtocol|17|Speed: 0 
+09:56:11.149|DEBUG|Gt02WireProtocol|17|Direction: 50 
+09:56:11.149|DEBUG|Gt02WireProtocol|17|Data 54-68-1A-0D-0A 
+09:56:11.149|DEBUG|Gt02Handler|17|gt02 sent: 54-68-1A-0D-0A 
+09:56:11.149|DEBUG|RequestDispatcher|17|incoming message: [Location: (IMEI=0864717003455833)(IsValid=True)(Lon=38,821285)(Lat=56,7908716666667)(Angle=50)(Velocity=0)(PositionDate=15.01.2013 20:35:22)(Sensors=0)(Version=)(Satn=0)(Satk=0)(AccelMaxNeg=0)(AccelMaxPos=0)(MaxSpeed=0)(Distance=0)(DistanceDiff=0)(GsmRssi=0)(MsgNum=2)(TerminalDate=15.01.2013 20:35:22)(TerminalID=0)(Timestamp=01.01.0001 0:00:00)(FTemp=0)(BoardTemp=0)(AipVolt=0)(PowerVolt=0)(FSensor=0)(SumSensors=0)(HDop=0)(GpsSatNum=0)(GlonasSatNum=0)(Parameters=)] 
+09:56:11.149|DEBUG|HttpSendHandler|13|send to http://dev.asmsai.ru/asmsai.b2b/location.aspx?boardId=0864717003455833&version=&channel=gprs&msgNum=2&Sensors=0&sumSensors=0&longitude=38.492771&latitude=56.474523&boardTime=2013-01-15T20:35:22&gpsTime=2013-01-15T20:35:22&speed=0&maxSpeed=0&course=5000&isValid=True&satn=0&satk=0&gsmRssi=0&distance=0&distanceDiff=0&accelMaxNeg=0&accelMaxPos=0&fsensor=0&aipVolt=0&boardTemp=0&powerVolt=0&HDop=0&GpsSatNum=0&GlonasSatNum=0 message 
+09:56:11.257|INFO|HttpSendHandler|13|answer from server: OK 
+09:56:11.459|INFO|DeviceManService|9|Stopping service. 
+09:56:11.459|INFO|RequestDispatcher|9|Service stopping... 
+09:56:11.459|DEBUG|Gt02Handler|9|Client Disconnected: 1,  
+09:56:11.459|INFO|RequestDispatcher|9|Device handler Race.Locator.Positioning.DeviceMan.Handler.Gt02Handler stopped 
+09:56:16.468|INFO|RequestDispatcher|9|Service stopped. 

@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<handlers>
+  <handler type="Race.Locator.Positioning.DeviceMan.Handler.HttpSendHandler, Race.Locator.Positioning.DeviceMan.Handler">
+    <Url>http://dev.asmsai.ru/asmsai.b2b/location.aspx</Url>
+  </handler>
+</handlers>

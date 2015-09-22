@@ -1,0 +1,16 @@
+D:\Projects\MobilePark\trunk\src\Code Libraries\Race.Locator.Positioning.DeviceMan.Model\obj\Debug\ResolveAssemblyReference.cache
+D:\Projects\MobilePark\trunk\src\Code Libraries\Race.Locator.Positioning.DeviceMan.Model\bin\Debug\Race.Locator.Positioning.DeviceMan.Model.dll
+D:\Projects\MobilePark\trunk\src\Code Libraries\Race.Locator.Positioning.DeviceMan.Model\bin\Debug\Race.Locator.Positioning.DeviceMan.Model.pdb
+D:\Projects\MobilePark\trunk\src\Code Libraries\Race.Locator.Positioning.DeviceMan.Model\bin\Debug\NLog.dll
+D:\Projects\MobilePark\trunk\src\Code Libraries\Race.Locator.Positioning.DeviceMan.Model\bin\Debug\NLog.pdb
+D:\Projects\MobilePark\trunk\src\Code Libraries\Race.Locator.Positioning.DeviceMan.Model\bin\Debug\NLog.xml
+D:\Projects\MobilePark\trunk\src\Code Libraries\Race.Locator.Positioning.DeviceMan.Model\obj\Debug\Race.Locator.Positioning.DeviceMan.Model.dll
+D:\Projects\MobilePark\trunk\src\Code Libraries\Race.Locator.Positioning.DeviceMan.Model\obj\Debug\Race.Locator.Positioning.DeviceMan.Model.pdb
+C:\Users\Аауи\Desktop\джибиэсу\new\src\Code Libraries\Race.Locator.Positioning.DeviceMan.Model\bin\Debug\Race.Locator.Positioning.DeviceMan.Model.dll
+C:\Users\Аауи\Desktop\джибиэсу\new\src\Code Libraries\Race.Locator.Positioning.DeviceMan.Model\bin\Debug\Race.Locator.Positioning.DeviceMan.Model.pdb
+C:\Users\Аауи\Desktop\джибиэсу\new\src\Code Libraries\Race.Locator.Positioning.DeviceMan.Model\bin\Debug\NLog.dll
+C:\Users\Аауи\Desktop\джибиэсу\new\src\Code Libraries\Race.Locator.Positioning.DeviceMan.Model\bin\Debug\NLog.pdb
+C:\Users\Аауи\Desktop\джибиэсу\new\src\Code Libraries\Race.Locator.Positioning.DeviceMan.Model\bin\Debug\NLog.xml
+C:\Users\Аауи\Desktop\джибиэсу\new\src\Code Libraries\Race.Locator.Positioning.DeviceMan.Model\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Аауи\Desktop\джибиэсу\new\src\Code Libraries\Race.Locator.Positioning.DeviceMan.Model\obj\Debug\Race.Locator.Positioning.DeviceMan.Model.dll
+C:\Users\Аауи\Desktop\джибиэсу\new\src\Code Libraries\Race.Locator.Positioning.DeviceMan.Model\obj\Debug\Race.Locator.Positioning.DeviceMan.Model.pdb

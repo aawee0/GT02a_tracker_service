@@ -1,0 +1,509 @@
+11:08:32.565|INFO|DeviceManService|8|Starting service. 
+11:08:32.632|INFO|RequestDispatcher|8|Initialization started 
+11:08:32.632|INFO|RequestDispatcher|8|Executing path : C:\Users\Аауи\Desktop\джибиэсу\new\src\WinServices\Race.Locator.Positioning.DeviceMan.Service\bin\Debug 
+11:08:32.632|INFO|RequestDispatcher|8|Device handlers file path : config\\DeviceHandlers.xml 
+11:08:32.705|INFO|RequestDispatcher|8|Device handler Race.Locator.Positioning.DeviceMan.Handler.Gt02Handler loaded 
+11:08:32.705|INFO|RequestDispatcher|8|System handlers file path : config\\SystemHandlers.xml 
+11:08:32.719|INFO|RequestDispatcher|8|System handler Race.Locator.Positioning.DeviceMan.Handler.HttpSendHandler loaded 
+11:08:32.719|INFO|RequestDispatcher|8|Initialization comlete 
+11:08:32.719|INFO|RequestDispatcher|8|Service starting... 
+11:08:32.756|INFO|RequestDispatcher|8|Device handler Race.Locator.Positioning.DeviceMan.Handler.Gt02Handler started 
+11:08:32.756|INFO|DeviceManService|8|Service started. 
+11:09:45.823|DEBUG|Gt02Handler|14|Client Connected: 1 
+11:09:45.961|DEBUG|Gt02WireProtocol|17|receive data: 68-68-25-14-55-08-64-71-70-03-45-58-33-00-01-10-0D-01-10-0E-1E-0B-06-17-CF-BE-04-2A-47-AB-00-00-40-01-61-6F-00-00-00-07-0D-0A 
+11:09:45.961|DEBUG|Gt02WireProtocol|17|Received appropriate head bytes 104 104 
+11:09:45.961|DEBUG|Gt02WireProtocol|17|message length is 37 
+11:09:46.010|DEBUG|Gt02WireProtocol|17|Date: 16.01.2013 14:30:11 
+11:09:46.010|DEBUG|Gt02WireProtocol|17|Latitude: 56,7910033333333 
+11:09:46.010|DEBUG|Gt02WireProtocol|17|Longitude: 38,8220683333333 
+11:09:46.010|DEBUG|Gt02WireProtocol|17|Speed: 0 
+11:09:46.010|DEBUG|Gt02WireProtocol|17|Direction: 64 
+11:09:46.010|DEBUG|Gt02WireProtocol|17|Data 54-68-1A-0D-0A 
+11:09:46.018|DEBUG|Gt02Handler|17|gt02 sent: 54-68-1A-0D-0A 
+11:09:46.103|DEBUG|RequestDispatcher|17|incoming message: [Location: (IMEI=0864717003455833)(IsValid=True)(Lon=38,8220683333333)(Lat=56,7910033333333)(Angle=64)(Velocity=0)(PositionDate=16.01.2013 14:30:11)(Sensors=0)(Version=)(Satn=0)(Satk=0)(AccelMaxNeg=0)(AccelMaxPos=0)(MaxSpeed=0)(Distance=0)(DistanceDiff=0)(GsmRssi=0)(MsgNum=1)(TerminalDate=16.01.2013 14:30:11)(TerminalID=0)(Timestamp=01.01.0001 0:00:00)(FTemp=0)(BoardTemp=0)(AipVolt=0)(PowerVolt=0)(FSensor=0)(SumSensors=0)(HDop=0)(GpsSatNum=0)(GlonasSatNum=0)(Parameters=)] 
+11:09:46.120|DEBUG|HttpSendHandler|16|send to http://dev.asmsai.ru/asmsai.b2b/location.aspx?boardId=0864717003455833&version=&channel=gprs&msgNum=1&Sensors=0&sumSensors=0&longitude=38.493241&latitude=56.474602&boardTime=2013-01-16T14:30:11&gpsTime=2013-01-16T14:30:11&speed=0&maxSpeed=0&course=6400&isValid=True&satn=0&satk=0&gsmRssi=0&distance=0&distanceDiff=0&accelMaxNeg=0&accelMaxPos=0&fsensor=0&aipVolt=0&boardTemp=0&powerVolt=0&HDop=0&GpsSatNum=0&GlonasSatNum=0 message 
+11:09:49.399|INFO|HttpSendHandler|16|answer from server: OK 
+11:09:56.224|DEBUG|Gt02WireProtocol|18|receive data: 68-68-25-00-00-08-64-71-70-03-45-58-33-00-02-10-0D-01-10-0E-1D-0E-06-17-CF-3D-04-2A-46-A3-00-00-00-00-00-00-00-00-00-07-0D-0A 
+11:09:56.224|DEBUG|Gt02WireProtocol|18|Received appropriate head bytes 104 104 
+11:09:56.224|DEBUG|Gt02WireProtocol|18|message length is 37 
+11:09:56.224|DEBUG|Gt02WireProtocol|18|Date: 16.01.2013 14:29:14 
+11:09:56.224|DEBUG|Gt02WireProtocol|18|Latitude: 56,7909316666667 
+11:09:56.224|DEBUG|Gt02WireProtocol|18|Longitude: 38,8219216666667 
+11:09:56.224|DEBUG|Gt02WireProtocol|18|Speed: 0 
+11:09:56.224|DEBUG|Gt02WireProtocol|18|Direction: 0 
+11:09:56.224|DEBUG|Gt02WireProtocol|18|Data 54-68-1A-0D-0A 
+11:09:56.224|DEBUG|Gt02Handler|18|gt02 sent: 54-68-1A-0D-0A 
+11:09:56.224|DEBUG|RequestDispatcher|18|incoming message: [Location: (IMEI=0864717003455833)(IsValid=True)(Lon=38,8219216666667)(Lat=56,7909316666667)(Angle=0)(Velocity=0)(PositionDate=16.01.2013 14:29:14)(Sensors=0)(Version=)(Satn=0)(Satk=0)(AccelMaxNeg=0)(AccelMaxPos=0)(MaxSpeed=0)(Distance=0)(DistanceDiff=0)(GsmRssi=0)(MsgNum=2)(TerminalDate=16.01.2013 14:29:14)(TerminalID=0)(Timestamp=01.01.0001 0:00:00)(FTemp=0)(BoardTemp=0)(AipVolt=0)(PowerVolt=0)(FSensor=0)(SumSensors=0)(HDop=0)(GpsSatNum=0)(GlonasSatNum=0)(Parameters=)] 
+11:09:56.224|DEBUG|HttpSendHandler|10|send to http://dev.asmsai.ru/asmsai.b2b/location.aspx?boardId=0864717003455833&version=&channel=gprs&msgNum=2&Sensors=0&sumSensors=0&longitude=38.493153&latitude=56.474559&boardTime=2013-01-16T14:29:14&gpsTime=2013-01-16T14:29:14&speed=0&maxSpeed=0&course=0&isValid=True&satn=0&satk=0&gsmRssi=0&distance=0&distanceDiff=0&accelMaxNeg=0&accelMaxPos=0&fsensor=0&aipVolt=0&boardTemp=0&powerVolt=0&HDop=0&GpsSatNum=0&GlonasSatNum=0 message 
+11:09:56.265|INFO|HttpSendHandler|10|answer from server: OK 
+11:09:57.254|DEBUG|Gt02WireProtocol|18|receive data: 68-68-25-00-00-08-64-71-70-03-45-58-33-00-03-10-0D-01-10-0E-1D-18-06-17-CF-AF-04-2A-46-B2-00-00-EA-00-00-00-00-00-00-07-0D-0A-68-68-25-00-00-08-64-71-70-03-45-58-33-00-04-10-0D-01-10-0E-1D-23-06-17-D0-06-04-2A-47-1E-01-00-14-00-00-00-00-00-00-07-0D-0A-68-68-25-00-00-08-64-71-70-03-45-58-33-00-05-10-0D-01-10-0E-1D-2D-06-17-CF-DF-04-2A-47-84-00-00-40-00-00-00-00-00-00-07-0D-0A-68-68-25-00-00-08-64-71-70-03-45-58-33-00-06-10-0D-01-10-0E-1D-37-06-17-CF-C7-04-2A-47-AE-00-00-40-00-00-00-00-00-00-07-0D-0A-68-68-25-00-00-08-64-71-70-03-45-58-33-00-07-10-0D-01-10-0E-1E-05-06-17-CF-C4-04-2A-47-C0-00-00-40-00-00-00-00-00-00-07-0D-0A-68-68-25-00-00-08-64-71-70-03-45-58-33-00-08-10-0D-01-10-0E-1E-0E-06-17-CF-CD-04-2A-47-AB-01-00-13-00-00-00-00-00-00-07-0D-0A-68-68-25-00-00-08-64-71-70-03-45-58-33-00-09-10-0D-01-10-0E-1E-19-06-17-CF-D3-04-2A-48-08-01-00-38-00-00-00-00-00-00-07-0D-0A-68-68-25-00-00-08-64-71-70-03-45-58-33-00-0A-10-0D-01-10-0E-1E-23-06-17-D0-12-04-2A-48-AD-01-00-33-00-00-00-00-00-00-07-0D-0A-68-68-25-14-55-08-64-71-70-03-45-58-33-00-0B-10-0D-01-10-0E-1E-0B-06-17-CF-BE-04-2A-47-AB-00-00-40-01-61-6F-00-00-00-07-0D-0A 
+11:09:57.254|DEBUG|Gt02WireProtocol|18|Received appropriate head bytes 104 104 
+11:09:57.254|DEBUG|Gt02WireProtocol|18|message length is 37 
+11:09:57.254|DEBUG|Gt02WireProtocol|18|Date: 16.01.2013 14:29:24 
+11:09:57.254|DEBUG|Gt02WireProtocol|18|Latitude: 56,790995 
+11:09:57.254|DEBUG|Gt02WireProtocol|18|Longitude: 38,82193 
+11:09:57.254|DEBUG|Gt02WireProtocol|18|Speed: 0 
+11:09:57.254|DEBUG|Gt02WireProtocol|18|Direction: 234 
+11:09:57.254|DEBUG|Gt02WireProtocol|18|Received appropriate head bytes 104 104 
+11:09:57.254|DEBUG|Gt02WireProtocol|18|message length is 37 
+11:09:57.254|DEBUG|Gt02WireProtocol|18|Date: 16.01.2013 14:29:35 
+11:09:57.254|DEBUG|Gt02WireProtocol|18|Latitude: 56,7910433333333 
+11:09:57.254|DEBUG|Gt02WireProtocol|18|Longitude: 38,82199 
+11:09:57.254|DEBUG|Gt02WireProtocol|18|Speed: 1 
+11:09:57.254|DEBUG|Gt02WireProtocol|18|Direction: 20 
+11:09:57.254|DEBUG|Gt02WireProtocol|18|Received appropriate head bytes 104 104 
+11:09:57.254|DEBUG|Gt02WireProtocol|18|message length is 37 
+11:09:57.254|DEBUG|Gt02WireProtocol|18|Date: 16.01.2013 14:29:45 
+11:09:57.254|DEBUG|Gt02WireProtocol|18|Latitude: 56,7910216666667 
+11:09:57.254|DEBUG|Gt02WireProtocol|18|Longitude: 38,8220466666667 
+11:09:57.254|DEBUG|Gt02WireProtocol|18|Speed: 0 
+11:09:57.254|DEBUG|Gt02WireProtocol|18|Direction: 64 
+11:09:57.254|DEBUG|Gt02WireProtocol|18|Received appropriate head bytes 104 104 
+11:09:57.254|DEBUG|Gt02WireProtocol|18|message length is 37 
+11:09:57.254|DEBUG|Gt02WireProtocol|18|Date: 16.01.2013 14:29:55 
+11:09:57.254|DEBUG|Gt02WireProtocol|18|Latitude: 56,7910083333333 
+11:09:57.254|DEBUG|Gt02WireProtocol|18|Longitude: 38,82207 
+11:09:57.254|DEBUG|Gt02WireProtocol|18|Speed: 0 
+11:09:57.254|DEBUG|Gt02WireProtocol|18|Direction: 64 
+11:09:57.254|DEBUG|Gt02WireProtocol|18|Received appropriate head bytes 104 104 
+11:09:57.254|DEBUG|Gt02WireProtocol|18|message length is 37 
+11:09:57.254|DEBUG|Gt02WireProtocol|18|Date: 16.01.2013 14:30:05 
+11:09:57.254|DEBUG|Gt02WireProtocol|18|Latitude: 56,7910066666667 
+11:09:57.254|DEBUG|Gt02WireProtocol|18|Longitude: 38,82208 
+11:09:57.254|DEBUG|Gt02WireProtocol|18|Speed: 0 
+11:09:57.254|DEBUG|Gt02WireProtocol|18|Direction: 64 
+11:09:57.254|DEBUG|Gt02WireProtocol|18|Received appropriate head bytes 104 104 
+11:09:57.254|DEBUG|Gt02WireProtocol|18|message length is 37 
+11:09:57.254|DEBUG|Gt02WireProtocol|18|Date: 16.01.2013 14:30:14 
+11:09:57.254|DEBUG|Gt02WireProtocol|18|Latitude: 56,7910116666667 
+11:09:57.254|DEBUG|Gt02WireProtocol|18|Longitude: 38,8220683333333 
+11:09:57.254|DEBUG|Gt02WireProtocol|18|Speed: 1 
+11:09:57.254|DEBUG|Gt02WireProtocol|18|Direction: 19 
+11:09:57.254|DEBUG|Gt02WireProtocol|18|Received appropriate head bytes 104 104 
+11:09:57.254|DEBUG|Gt02WireProtocol|18|message length is 37 
+11:09:57.254|DEBUG|Gt02WireProtocol|18|Date: 16.01.2013 14:30:25 
+11:09:57.254|DEBUG|Gt02WireProtocol|18|Latitude: 56,791015 
+11:09:57.254|DEBUG|Gt02WireProtocol|18|Longitude: 38,82212 
+11:09:57.254|DEBUG|Gt02WireProtocol|18|Speed: 1 
+11:09:57.254|DEBUG|Gt02WireProtocol|18|Direction: 56 
+11:09:57.254|DEBUG|Gt02WireProtocol|18|Received appropriate head bytes 104 104 
+11:09:57.254|DEBUG|Gt02WireProtocol|18|message length is 37 
+11:09:57.254|DEBUG|Gt02WireProtocol|18|Date: 16.01.2013 14:30:35 
+11:09:57.254|DEBUG|Gt02WireProtocol|18|Latitude: 56,79105 
+11:09:57.254|DEBUG|Gt02WireProtocol|18|Longitude: 38,8222116666667 
+11:09:57.254|DEBUG|Gt02WireProtocol|18|Speed: 1 
+11:09:57.254|DEBUG|Gt02WireProtocol|18|Direction: 51 
+11:09:57.254|DEBUG|Gt02WireProtocol|18|Received appropriate head bytes 104 104 
+11:09:57.254|DEBUG|Gt02WireProtocol|18|message length is 37 
+11:09:57.254|DEBUG|Gt02WireProtocol|18|Date: 16.01.2013 14:30:11 
+11:09:57.254|DEBUG|Gt02WireProtocol|18|Latitude: 56,7910033333333 
+11:09:57.254|DEBUG|Gt02WireProtocol|18|Longitude: 38,8220683333333 
+11:09:57.254|DEBUG|Gt02WireProtocol|18|Speed: 0 
+11:09:57.254|DEBUG|Gt02WireProtocol|18|Direction: 64 
+11:09:57.254|DEBUG|Gt02WireProtocol|18|Data 54-68-1A-0D-0A 
+11:09:57.254|DEBUG|Gt02Handler|18|gt02 sent: 54-68-1A-0D-0A 
+11:09:57.254|DEBUG|RequestDispatcher|18|incoming message: [Location: (IMEI=0864717003455833)(IsValid=True)(Lon=38,82193)(Lat=56,790995)(Angle=234)(Velocity=0)(PositionDate=16.01.2013 14:29:24)(Sensors=0)(Version=)(Satn=0)(Satk=0)(AccelMaxNeg=0)(AccelMaxPos=0)(MaxSpeed=0)(Distance=0)(DistanceDiff=0)(GsmRssi=0)(MsgNum=3)(TerminalDate=16.01.2013 14:29:24)(TerminalID=0)(Timestamp=01.01.0001 0:00:00)(FTemp=0)(BoardTemp=0)(AipVolt=0)(PowerVolt=0)(FSensor=0)(SumSensors=0)(HDop=0)(GpsSatNum=0)(GlonasSatNum=0)(Parameters=)] 
+11:09:57.254|DEBUG|Gt02WireProtocol|18|Data 54-68-1A-0D-0A 
+11:09:57.254|DEBUG|HttpSendHandler|16|send to http://dev.asmsai.ru/asmsai.b2b/location.aspx?boardId=0864717003455833&version=&channel=gprs&msgNum=3&Sensors=0&sumSensors=0&longitude=38.493158&latitude=56.474597&boardTime=2013-01-16T14:29:24&gpsTime=2013-01-16T14:29:24&speed=0&maxSpeed=0&course=23400&isValid=True&satn=0&satk=0&gsmRssi=0&distance=0&distanceDiff=0&accelMaxNeg=0&accelMaxPos=0&fsensor=0&aipVolt=0&boardTemp=0&powerVolt=0&HDop=0&GpsSatNum=0&GlonasSatNum=0 message 
+11:09:57.254|DEBUG|Gt02Handler|18|gt02 sent: 54-68-1A-0D-0A 
+11:09:57.295|DEBUG|RequestDispatcher|18|incoming message: [Location: (IMEI=0864717003455833)(IsValid=True)(Lon=38,82199)(Lat=56,7910433333333)(Angle=20)(Velocity=1)(PositionDate=16.01.2013 14:29:35)(Sensors=0)(Version=)(Satn=0)(Satk=0)(AccelMaxNeg=0)(AccelMaxPos=0)(MaxSpeed=0)(Distance=0)(DistanceDiff=0)(GsmRssi=0)(MsgNum=4)(TerminalDate=16.01.2013 14:29:35)(TerminalID=0)(Timestamp=01.01.0001 0:00:00)(FTemp=0)(BoardTemp=0)(AipVolt=0)(PowerVolt=0)(FSensor=0)(SumSensors=0)(HDop=0)(GpsSatNum=0)(GlonasSatNum=0)(Parameters=)] 
+11:09:57.295|DEBUG|Gt02WireProtocol|18|Data 54-68-1A-0D-0A 
+11:09:57.295|DEBUG|Gt02Handler|18|gt02 sent: 54-68-1A-0D-0A 
+11:09:57.295|DEBUG|RequestDispatcher|18|incoming message: [Location: (IMEI=0864717003455833)(IsValid=True)(Lon=38,8220466666667)(Lat=56,7910216666667)(Angle=64)(Velocity=0)(PositionDate=16.01.2013 14:29:45)(Sensors=0)(Version=)(Satn=0)(Satk=0)(AccelMaxNeg=0)(AccelMaxPos=0)(MaxSpeed=0)(Distance=0)(DistanceDiff=0)(GsmRssi=0)(MsgNum=5)(TerminalDate=16.01.2013 14:29:45)(TerminalID=0)(Timestamp=01.01.0001 0:00:00)(FTemp=0)(BoardTemp=0)(AipVolt=0)(PowerVolt=0)(FSensor=0)(SumSensors=0)(HDop=0)(GpsSatNum=0)(GlonasSatNum=0)(Parameters=)] 
+11:09:57.295|DEBUG|Gt02WireProtocol|18|Data 54-68-1A-0D-0A 
+11:09:57.298|DEBUG|Gt02Handler|18|gt02 sent: 54-68-1A-0D-0A 
+11:09:57.298|DEBUG|RequestDispatcher|18|incoming message: [Location: (IMEI=0864717003455833)(IsValid=True)(Lon=38,82207)(Lat=56,7910083333333)(Angle=64)(Velocity=0)(PositionDate=16.01.2013 14:29:55)(Sensors=0)(Version=)(Satn=0)(Satk=0)(AccelMaxNeg=0)(AccelMaxPos=0)(MaxSpeed=0)(Distance=0)(DistanceDiff=0)(GsmRssi=0)(MsgNum=6)(TerminalDate=16.01.2013 14:29:55)(TerminalID=0)(Timestamp=01.01.0001 0:00:00)(FTemp=0)(BoardTemp=0)(AipVolt=0)(PowerVolt=0)(FSensor=0)(SumSensors=0)(HDop=0)(GpsSatNum=0)(GlonasSatNum=0)(Parameters=)] 
+11:09:57.298|DEBUG|Gt02WireProtocol|18|Data 54-68-1A-0D-0A 
+11:09:57.298|DEBUG|Gt02Handler|18|gt02 sent: 54-68-1A-0D-0A 
+11:09:57.298|DEBUG|HttpSendHandler|19|send to http://dev.asmsai.ru/asmsai.b2b/location.aspx?boardId=0864717003455833&version=&channel=gprs&msgNum=5&Sensors=0&sumSensors=0&longitude=38.493228&latitude=56.474613&boardTime=2013-01-16T14:29:45&gpsTime=2013-01-16T14:29:45&speed=0&maxSpeed=0&course=6400&isValid=True&satn=0&satk=0&gsmRssi=0&distance=0&distanceDiff=0&accelMaxNeg=0&accelMaxPos=0&fsensor=0&aipVolt=0&boardTemp=0&powerVolt=0&HDop=0&GpsSatNum=0&GlonasSatNum=0 message 
+11:09:57.298|DEBUG|RequestDispatcher|18|incoming message: [Location: (IMEI=0864717003455833)(IsValid=True)(Lon=38,82208)(Lat=56,7910066666667)(Angle=64)(Velocity=0)(PositionDate=16.01.2013 14:30:05)(Sensors=0)(Version=)(Satn=0)(Satk=0)(AccelMaxNeg=0)(AccelMaxPos=0)(MaxSpeed=0)(Distance=0)(DistanceDiff=0)(GsmRssi=0)(MsgNum=7)(TerminalDate=16.01.2013 14:30:05)(TerminalID=0)(Timestamp=01.01.0001 0:00:00)(FTemp=0)(BoardTemp=0)(AipVolt=0)(PowerVolt=0)(FSensor=0)(SumSensors=0)(HDop=0)(GpsSatNum=0)(GlonasSatNum=0)(Parameters=)] 
+11:09:57.298|DEBUG|Gt02WireProtocol|18|Data 54-68-1A-0D-0A 
+11:09:57.298|DEBUG|Gt02Handler|18|gt02 sent: 54-68-1A-0D-0A 
+11:09:57.298|DEBUG|RequestDispatcher|18|incoming message: [Location: (IMEI=0864717003455833)(IsValid=True)(Lon=38,8220683333333)(Lat=56,7910116666667)(Angle=19)(Velocity=1)(PositionDate=16.01.2013 14:30:14)(Sensors=0)(Version=)(Satn=0)(Satk=0)(AccelMaxNeg=0)(AccelMaxPos=0)(MaxSpeed=0)(Distance=0)(DistanceDiff=0)(GsmRssi=0)(MsgNum=8)(TerminalDate=16.01.2013 14:30:14)(TerminalID=0)(Timestamp=01.01.0001 0:00:00)(FTemp=0)(BoardTemp=0)(AipVolt=0)(PowerVolt=0)(FSensor=0)(SumSensors=0)(HDop=0)(GpsSatNum=0)(GlonasSatNum=0)(Parameters=)] 
+11:09:57.298|DEBUG|Gt02WireProtocol|18|Data 54-68-1A-0D-0A 
+11:09:57.298|DEBUG|Gt02Handler|18|gt02 sent: 54-68-1A-0D-0A 
+11:09:57.298|DEBUG|RequestDispatcher|18|incoming message: [Location: (IMEI=0864717003455833)(IsValid=True)(Lon=38,82212)(Lat=56,791015)(Angle=56)(Velocity=1)(PositionDate=16.01.2013 14:30:25)(Sensors=0)(Version=)(Satn=0)(Satk=0)(AccelMaxNeg=0)(AccelMaxPos=0)(MaxSpeed=0)(Distance=0)(DistanceDiff=0)(GsmRssi=0)(MsgNum=9)(TerminalDate=16.01.2013 14:30:25)(TerminalID=0)(Timestamp=01.01.0001 0:00:00)(FTemp=0)(BoardTemp=0)(AipVolt=0)(PowerVolt=0)(FSensor=0)(SumSensors=0)(HDop=0)(GpsSatNum=0)(GlonasSatNum=0)(Parameters=)] 
+11:09:57.298|DEBUG|Gt02WireProtocol|18|Data 54-68-1A-0D-0A 
+11:09:57.298|DEBUG|Gt02Handler|18|gt02 sent: 54-68-1A-0D-0A 
+11:09:57.298|DEBUG|RequestDispatcher|18|incoming message: [Location: (IMEI=0864717003455833)(IsValid=True)(Lon=38,8222116666667)(Lat=56,79105)(Angle=51)(Velocity=1)(PositionDate=16.01.2013 14:30:35)(Sensors=0)(Version=)(Satn=0)(Satk=0)(AccelMaxNeg=0)(AccelMaxPos=0)(MaxSpeed=0)(Distance=0)(DistanceDiff=0)(GsmRssi=0)(MsgNum=10)(TerminalDate=16.01.2013 14:30:35)(TerminalID=0)(Timestamp=01.01.0001 0:00:00)(FTemp=0)(BoardTemp=0)(AipVolt=0)(PowerVolt=0)(FSensor=0)(SumSensors=0)(HDop=0)(GpsSatNum=0)(GlonasSatNum=0)(Parameters=)] 
+11:09:57.298|DEBUG|Gt02WireProtocol|18|Data 54-68-1A-0D-0A 
+11:09:57.298|DEBUG|Gt02Handler|18|gt02 sent: 54-68-1A-0D-0A 
+11:09:57.298|DEBUG|RequestDispatcher|18|incoming message: [Location: (IMEI=0864717003455833)(IsValid=True)(Lon=38,8220683333333)(Lat=56,7910033333333)(Angle=64)(Velocity=0)(PositionDate=16.01.2013 14:30:11)(Sensors=0)(Version=)(Satn=0)(Satk=0)(AccelMaxNeg=0)(AccelMaxPos=0)(MaxSpeed=0)(Distance=0)(DistanceDiff=0)(GsmRssi=0)(MsgNum=11)(TerminalDate=16.01.2013 14:30:11)(TerminalID=0)(Timestamp=01.01.0001 0:00:00)(FTemp=0)(BoardTemp=0)(AipVolt=0)(PowerVolt=0)(FSensor=0)(SumSensors=0)(HDop=0)(GpsSatNum=0)(GlonasSatNum=0)(Parameters=)] 
+11:09:57.298|DEBUG|HttpSendHandler|12|send to http://dev.asmsai.ru/asmsai.b2b/location.aspx?boardId=0864717003455833&version=&channel=gprs&msgNum=4&Sensors=0&sumSensors=0&longitude=38.493194&latitude=56.474626&boardTime=2013-01-16T14:29:35&gpsTime=2013-01-16T14:29:35&speed=100&maxSpeed=0&course=2000&isValid=True&satn=0&satk=0&gsmRssi=0&distance=0&distanceDiff=0&accelMaxNeg=0&accelMaxPos=0&fsensor=0&aipVolt=0&boardTemp=0&powerVolt=0&HDop=0&GpsSatNum=0&GlonasSatNum=0 message 
+11:09:57.330|INFO|HttpSendHandler|16|answer from server: OK 
+11:09:57.330|DEBUG|HttpSendHandler|16|send to http://dev.asmsai.ru/asmsai.b2b/location.aspx?boardId=0864717003455833&version=&channel=gprs&msgNum=6&Sensors=0&sumSensors=0&longitude=38.493242&latitude=56.474605&boardTime=2013-01-16T14:29:55&gpsTime=2013-01-16T14:29:55&speed=0&maxSpeed=0&course=6400&isValid=True&satn=0&satk=0&gsmRssi=0&distance=0&distanceDiff=0&accelMaxNeg=0&accelMaxPos=0&fsensor=0&aipVolt=0&boardTemp=0&powerVolt=0&HDop=0&GpsSatNum=0&GlonasSatNum=0 message 
+11:09:57.360|DEBUG|HttpSendHandler|10|send to http://dev.asmsai.ru/asmsai.b2b/location.aspx?boardId=0864717003455833&version=&channel=gprs&msgNum=7&Sensors=0&sumSensors=0&longitude=38.493248&latitude=56.474604&boardTime=2013-01-16T14:30:05&gpsTime=2013-01-16T14:30:05&speed=0&maxSpeed=0&course=6400&isValid=True&satn=0&satk=0&gsmRssi=0&distance=0&distanceDiff=0&accelMaxNeg=0&accelMaxPos=0&fsensor=0&aipVolt=0&boardTemp=0&powerVolt=0&HDop=0&GpsSatNum=0&GlonasSatNum=0 message 
+11:09:57.403|INFO|HttpSendHandler|19|answer from server: OK 
+11:09:57.403|DEBUG|HttpSendHandler|19|send to http://dev.asmsai.ru/asmsai.b2b/location.aspx?boardId=0864717003455833&version=&channel=gprs&msgNum=8&Sensors=0&sumSensors=0&longitude=38.493241&latitude=56.474607&boardTime=2013-01-16T14:30:14&gpsTime=2013-01-16T14:30:14&speed=100&maxSpeed=0&course=1900&isValid=True&satn=0&satk=0&gsmRssi=0&distance=0&distanceDiff=0&accelMaxNeg=0&accelMaxPos=0&fsensor=0&aipVolt=0&boardTemp=0&powerVolt=0&HDop=0&GpsSatNum=0&GlonasSatNum=0 message 
+11:09:57.407|INFO|HttpSendHandler|16|answer from server: OK 
+11:09:57.407|DEBUG|HttpSendHandler|16|send to http://dev.asmsai.ru/asmsai.b2b/location.aspx?boardId=0864717003455833&version=&channel=gprs&msgNum=9&Sensors=0&sumSensors=0&longitude=38.493272&latitude=56.474609&boardTime=2013-01-16T14:30:25&gpsTime=2013-01-16T14:30:25&speed=100&maxSpeed=0&course=5600&isValid=True&satn=0&satk=0&gsmRssi=0&distance=0&distanceDiff=0&accelMaxNeg=0&accelMaxPos=0&fsensor=0&aipVolt=0&boardTemp=0&powerVolt=0&HDop=0&GpsSatNum=0&GlonasSatNum=0 message 
+11:09:57.452|INFO|HttpSendHandler|10|answer from server: OK 
+11:09:57.452|INFO|HttpSendHandler|12|answer from server: OK 
+11:09:57.452|DEBUG|HttpSendHandler|12|send to http://dev.asmsai.ru/asmsai.b2b/location.aspx?boardId=0864717003455833&version=&channel=gprs&msgNum=10&Sensors=0&sumSensors=0&longitude=38.493327&latitude=56.474630&boardTime=2013-01-16T14:30:35&gpsTime=2013-01-16T14:30:35&speed=100&maxSpeed=0&course=5100&isValid=True&satn=0&satk=0&gsmRssi=0&distance=0&distanceDiff=0&accelMaxNeg=0&accelMaxPos=0&fsensor=0&aipVolt=0&boardTemp=0&powerVolt=0&HDop=0&GpsSatNum=0&GlonasSatNum=0 message 
+11:09:57.469|INFO|HttpSendHandler|16|answer from server: OK 
+11:09:57.469|DEBUG|HttpSendHandler|16|send to http://dev.asmsai.ru/asmsai.b2b/location.aspx?boardId=0864717003455833&version=&channel=gprs&msgNum=11&Sensors=0&sumSensors=0&longitude=38.493241&latitude=56.474602&boardTime=2013-01-16T14:30:11&gpsTime=2013-01-16T14:30:11&speed=0&maxSpeed=0&course=6400&isValid=True&satn=0&satk=0&gsmRssi=0&distance=0&distanceDiff=0&accelMaxNeg=0&accelMaxPos=0&fsensor=0&aipVolt=0&boardTemp=0&powerVolt=0&HDop=0&GpsSatNum=0&GlonasSatNum=0 message 
+11:09:57.496|INFO|HttpSendHandler|19|answer from server: OK 
+11:09:57.503|INFO|HttpSendHandler|12|answer from server: OK 
+11:09:57.517|INFO|HttpSendHandler|16|answer from server: OK 
+11:10:07.002|DEBUG|Gt02WireProtocol|18|receive data: 68-68-25-14-55-08-64-71-70-03-45-58-33-00-0C-10-0D-01-10-0E-1E-0B-06-17-CF-BE-04-2A-47-AB-00-00-40-01-61-6F-00-00-00-07-0D-0A 
+11:10:07.002|DEBUG|Gt02WireProtocol|18|Received appropriate head bytes 104 104 
+11:10:07.002|DEBUG|Gt02WireProtocol|18|message length is 37 
+11:10:07.002|DEBUG|Gt02WireProtocol|18|Date: 16.01.2013 14:30:11 
+11:10:07.002|DEBUG|Gt02WireProtocol|18|Latitude: 56,7910033333333 
+11:10:07.002|DEBUG|Gt02WireProtocol|18|Longitude: 38,8220683333333 
+11:10:07.002|DEBUG|Gt02WireProtocol|18|Speed: 0 
+11:10:07.002|DEBUG|Gt02WireProtocol|18|Direction: 64 
+11:10:07.002|DEBUG|Gt02WireProtocol|18|Data 54-68-1A-0D-0A 
+11:10:07.002|DEBUG|Gt02Handler|18|gt02 sent: 54-68-1A-0D-0A 
+11:10:07.002|DEBUG|RequestDispatcher|18|incoming message: [Location: (IMEI=0864717003455833)(IsValid=True)(Lon=38,8220683333333)(Lat=56,7910033333333)(Angle=64)(Velocity=0)(PositionDate=16.01.2013 14:30:11)(Sensors=0)(Version=)(Satn=0)(Satk=0)(AccelMaxNeg=0)(AccelMaxPos=0)(MaxSpeed=0)(Distance=0)(DistanceDiff=0)(GsmRssi=0)(MsgNum=12)(TerminalDate=16.01.2013 14:30:11)(TerminalID=0)(Timestamp=01.01.0001 0:00:00)(FTemp=0)(BoardTemp=0)(AipVolt=0)(PowerVolt=0)(FSensor=0)(SumSensors=0)(HDop=0)(GpsSatNum=0)(GlonasSatNum=0)(Parameters=)] 
+11:10:07.002|DEBUG|HttpSendHandler|19|send to http://dev.asmsai.ru/asmsai.b2b/location.aspx?boardId=0864717003455833&version=&channel=gprs&msgNum=12&Sensors=0&sumSensors=0&longitude=38.493241&latitude=56.474602&boardTime=2013-01-16T14:30:11&gpsTime=2013-01-16T14:30:11&speed=0&maxSpeed=0&course=6400&isValid=True&satn=0&satk=0&gsmRssi=0&distance=0&distanceDiff=0&accelMaxNeg=0&accelMaxPos=0&fsensor=0&aipVolt=0&boardTemp=0&powerVolt=0&HDop=0&GpsSatNum=0&GlonasSatNum=0 message 
+11:10:07.051|INFO|HttpSendHandler|19|answer from server: OK 
+11:10:16.956|DEBUG|Gt02WireProtocol|18|receive data: 68-68-25-14-55-08-64-71-70-03-45-58-33-00-0D-10-0D-01-10-0E-1E-0B-06-17-CF-BE-04-2A-47-AB-00-00-40-01-61-6F-00-00-00-07-0D-0A 
+11:10:16.956|DEBUG|Gt02WireProtocol|18|Received appropriate head bytes 104 104 
+11:10:16.956|DEBUG|Gt02WireProtocol|18|message length is 37 
+11:10:16.956|DEBUG|Gt02WireProtocol|18|Date: 16.01.2013 14:30:11 
+11:10:16.956|DEBUG|Gt02WireProtocol|18|Latitude: 56,7910033333333 
+11:10:16.956|DEBUG|Gt02WireProtocol|18|Longitude: 38,8220683333333 
+11:10:16.956|DEBUG|Gt02WireProtocol|18|Speed: 0 
+11:10:16.956|DEBUG|Gt02WireProtocol|18|Direction: 64 
+11:10:16.956|DEBUG|Gt02WireProtocol|18|Data 54-68-1A-0D-0A 
+11:10:16.956|DEBUG|Gt02Handler|18|gt02 sent: 54-68-1A-0D-0A 
+11:10:16.956|DEBUG|RequestDispatcher|18|incoming message: [Location: (IMEI=0864717003455833)(IsValid=True)(Lon=38,8220683333333)(Lat=56,7910033333333)(Angle=64)(Velocity=0)(PositionDate=16.01.2013 14:30:11)(Sensors=0)(Version=)(Satn=0)(Satk=0)(AccelMaxNeg=0)(AccelMaxPos=0)(MaxSpeed=0)(Distance=0)(DistanceDiff=0)(GsmRssi=0)(MsgNum=13)(TerminalDate=16.01.2013 14:30:11)(TerminalID=0)(Timestamp=01.01.0001 0:00:00)(FTemp=0)(BoardTemp=0)(AipVolt=0)(PowerVolt=0)(FSensor=0)(SumSensors=0)(HDop=0)(GpsSatNum=0)(GlonasSatNum=0)(Parameters=)] 
+11:10:16.956|DEBUG|HttpSendHandler|16|send to http://dev.asmsai.ru/asmsai.b2b/location.aspx?boardId=0864717003455833&version=&channel=gprs&msgNum=13&Sensors=0&sumSensors=0&longitude=38.493241&latitude=56.474602&boardTime=2013-01-16T14:30:11&gpsTime=2013-01-16T14:30:11&speed=0&maxSpeed=0&course=6400&isValid=True&satn=0&satk=0&gsmRssi=0&distance=0&distanceDiff=0&accelMaxNeg=0&accelMaxPos=0&fsensor=0&aipVolt=0&boardTemp=0&powerVolt=0&HDop=0&GpsSatNum=0&GlonasSatNum=0 message 
+11:10:16.996|INFO|HttpSendHandler|16|answer from server: OK 
+11:10:26.970|DEBUG|Gt02WireProtocol|18|receive data: 68-68-25-14-55-08-64-71-70-03-45-58-33-00-0E-10-0D-01-10-0E-1E-0B-06-17-CF-BE-04-2A-47-AB-00-00-40-01-61-6F-00-00-00-07-0D-0A 
+11:10:26.970|DEBUG|Gt02WireProtocol|18|Received appropriate head bytes 104 104 
+11:10:26.970|DEBUG|Gt02WireProtocol|18|message length is 37 
+11:10:26.970|DEBUG|Gt02WireProtocol|18|Date: 16.01.2013 14:30:11 
+11:10:26.970|DEBUG|Gt02WireProtocol|18|Latitude: 56,7910033333333 
+11:10:26.970|DEBUG|Gt02WireProtocol|18|Longitude: 38,8220683333333 
+11:10:26.970|DEBUG|Gt02WireProtocol|18|Speed: 0 
+11:10:26.970|DEBUG|Gt02WireProtocol|18|Direction: 64 
+11:10:26.970|DEBUG|Gt02WireProtocol|18|Data 54-68-1A-0D-0A 
+11:10:26.970|DEBUG|Gt02Handler|18|gt02 sent: 54-68-1A-0D-0A 
+11:10:26.970|DEBUG|RequestDispatcher|18|incoming message: [Location: (IMEI=0864717003455833)(IsValid=True)(Lon=38,8220683333333)(Lat=56,7910033333333)(Angle=64)(Velocity=0)(PositionDate=16.01.2013 14:30:11)(Sensors=0)(Version=)(Satn=0)(Satk=0)(AccelMaxNeg=0)(AccelMaxPos=0)(MaxSpeed=0)(Distance=0)(DistanceDiff=0)(GsmRssi=0)(MsgNum=14)(TerminalDate=16.01.2013 14:30:11)(TerminalID=0)(Timestamp=01.01.0001 0:00:00)(FTemp=0)(BoardTemp=0)(AipVolt=0)(PowerVolt=0)(FSensor=0)(SumSensors=0)(HDop=0)(GpsSatNum=0)(GlonasSatNum=0)(Parameters=)] 
+11:10:26.970|DEBUG|HttpSendHandler|19|send to http://dev.asmsai.ru/asmsai.b2b/location.aspx?boardId=0864717003455833&version=&channel=gprs&msgNum=14&Sensors=0&sumSensors=0&longitude=38.493241&latitude=56.474602&boardTime=2013-01-16T14:30:11&gpsTime=2013-01-16T14:30:11&speed=0&maxSpeed=0&course=6400&isValid=True&satn=0&satk=0&gsmRssi=0&distance=0&distanceDiff=0&accelMaxNeg=0&accelMaxPos=0&fsensor=0&aipVolt=0&boardTemp=0&powerVolt=0&HDop=0&GpsSatNum=0&GlonasSatNum=0 message 
+11:10:27.007|INFO|HttpSendHandler|19|answer from server: OK 
+11:10:37.012|DEBUG|Gt02WireProtocol|18|receive data: 68-68-25-14-55-08-64-71-70-03-45-58-33-00-0F-10-0D-01-10-0E-1E-0B-06-17-CF-BE-04-2A-47-AB-00-00-40-01-61-6F-00-00-00-07-0D-0A 
+11:10:37.012|DEBUG|Gt02WireProtocol|18|Received appropriate head bytes 104 104 
+11:10:37.012|DEBUG|Gt02WireProtocol|18|message length is 37 
+11:10:37.012|DEBUG|Gt02WireProtocol|18|Date: 16.01.2013 14:30:11 
+11:10:37.012|DEBUG|Gt02WireProtocol|18|Latitude: 56,7910033333333 
+11:10:37.012|DEBUG|Gt02WireProtocol|18|Longitude: 38,8220683333333 
+11:10:37.012|DEBUG|Gt02WireProtocol|18|Speed: 0 
+11:10:37.012|DEBUG|Gt02WireProtocol|18|Direction: 64 
+11:10:37.012|DEBUG|Gt02WireProtocol|18|Data 54-68-1A-0D-0A 
+11:10:37.012|DEBUG|Gt02Handler|18|gt02 sent: 54-68-1A-0D-0A 
+11:10:37.012|DEBUG|RequestDispatcher|18|incoming message: [Location: (IMEI=0864717003455833)(IsValid=True)(Lon=38,8220683333333)(Lat=56,7910033333333)(Angle=64)(Velocity=0)(PositionDate=16.01.2013 14:30:11)(Sensors=0)(Version=)(Satn=0)(Satk=0)(AccelMaxNeg=0)(AccelMaxPos=0)(MaxSpeed=0)(Distance=0)(DistanceDiff=0)(GsmRssi=0)(MsgNum=15)(TerminalDate=16.01.2013 14:30:11)(TerminalID=0)(Timestamp=01.01.0001 0:00:00)(FTemp=0)(BoardTemp=0)(AipVolt=0)(PowerVolt=0)(FSensor=0)(SumSensors=0)(HDop=0)(GpsSatNum=0)(GlonasSatNum=0)(Parameters=)] 
+11:10:37.012|DEBUG|HttpSendHandler|10|send to http://dev.asmsai.ru/asmsai.b2b/location.aspx?boardId=0864717003455833&version=&channel=gprs&msgNum=15&Sensors=0&sumSensors=0&longitude=38.493241&latitude=56.474602&boardTime=2013-01-16T14:30:11&gpsTime=2013-01-16T14:30:11&speed=0&maxSpeed=0&course=6400&isValid=True&satn=0&satk=0&gsmRssi=0&distance=0&distanceDiff=0&accelMaxNeg=0&accelMaxPos=0&fsensor=0&aipVolt=0&boardTemp=0&powerVolt=0&HDop=0&GpsSatNum=0&GlonasSatNum=0 message 
+11:10:37.220|INFO|HttpSendHandler|10|answer from server: OK 
+11:10:46.835|DEBUG|Gt02WireProtocol|18|receive data: 68-68-25-14-55-08-64-71-70-03-45-58-33-00-10-10-0D-01-10-0E-1E-0B-06-17-CF-BE-04-2A-47-AB-00-00-40-01-61-6F-00-00-00-07-0D-0A 
+11:10:46.835|DEBUG|Gt02WireProtocol|18|Received appropriate head bytes 104 104 
+11:10:46.835|DEBUG|Gt02WireProtocol|18|message length is 37 
+11:10:46.835|DEBUG|Gt02WireProtocol|18|Date: 16.01.2013 14:30:11 
+11:10:46.835|DEBUG|Gt02WireProtocol|18|Latitude: 56,7910033333333 
+11:10:46.835|DEBUG|Gt02WireProtocol|18|Longitude: 38,8220683333333 
+11:10:46.835|DEBUG|Gt02WireProtocol|18|Speed: 0 
+11:10:46.835|DEBUG|Gt02WireProtocol|18|Direction: 64 
+11:10:46.835|DEBUG|Gt02WireProtocol|18|Data 54-68-1A-0D-0A 
+11:10:46.835|DEBUG|Gt02Handler|18|gt02 sent: 54-68-1A-0D-0A 
+11:10:46.835|DEBUG|RequestDispatcher|18|incoming message: [Location: (IMEI=0864717003455833)(IsValid=True)(Lon=38,8220683333333)(Lat=56,7910033333333)(Angle=64)(Velocity=0)(PositionDate=16.01.2013 14:30:11)(Sensors=0)(Version=)(Satn=0)(Satk=0)(AccelMaxNeg=0)(AccelMaxPos=0)(MaxSpeed=0)(Distance=0)(DistanceDiff=0)(GsmRssi=0)(MsgNum=16)(TerminalDate=16.01.2013 14:30:11)(TerminalID=0)(Timestamp=01.01.0001 0:00:00)(FTemp=0)(BoardTemp=0)(AipVolt=0)(PowerVolt=0)(FSensor=0)(SumSensors=0)(HDop=0)(GpsSatNum=0)(GlonasSatNum=0)(Parameters=)] 
+11:10:46.835|DEBUG|HttpSendHandler|19|send to http://dev.asmsai.ru/asmsai.b2b/location.aspx?boardId=0864717003455833&version=&channel=gprs&msgNum=16&Sensors=0&sumSensors=0&longitude=38.493241&latitude=56.474602&boardTime=2013-01-16T14:30:11&gpsTime=2013-01-16T14:30:11&speed=0&maxSpeed=0&course=6400&isValid=True&satn=0&satk=0&gsmRssi=0&distance=0&distanceDiff=0&accelMaxNeg=0&accelMaxPos=0&fsensor=0&aipVolt=0&boardTemp=0&powerVolt=0&HDop=0&GpsSatNum=0&GlonasSatNum=0 message 
+11:10:46.873|INFO|HttpSendHandler|19|answer from server: OK 
+11:10:56.845|DEBUG|Gt02WireProtocol|18|receive data: 68-68-25-14-55-08-64-71-70-03-45-58-33-00-11-10-0D-01-10-0E-1E-0B-06-17-CF-BE-04-2A-47-AB-00-00-40-01-61-6F-00-00-00-07-0D-0A 
+11:10:56.845|DEBUG|Gt02WireProtocol|18|Received appropriate head bytes 104 104 
+11:10:56.845|DEBUG|Gt02WireProtocol|18|message length is 37 
+11:10:56.845|DEBUG|Gt02WireProtocol|18|Date: 16.01.2013 14:30:11 
+11:10:56.845|DEBUG|Gt02WireProtocol|18|Latitude: 56,7910033333333 
+11:10:56.845|DEBUG|Gt02WireProtocol|18|Longitude: 38,8220683333333 
+11:10:56.845|DEBUG|Gt02WireProtocol|18|Speed: 0 
+11:10:56.845|DEBUG|Gt02WireProtocol|18|Direction: 64 
+11:10:56.845|DEBUG|Gt02WireProtocol|18|Data 54-68-1A-0D-0A 
+11:10:56.845|DEBUG|Gt02Handler|18|gt02 sent: 54-68-1A-0D-0A 
+11:10:56.845|DEBUG|RequestDispatcher|18|incoming message: [Location: (IMEI=0864717003455833)(IsValid=True)(Lon=38,8220683333333)(Lat=56,7910033333333)(Angle=64)(Velocity=0)(PositionDate=16.01.2013 14:30:11)(Sensors=0)(Version=)(Satn=0)(Satk=0)(AccelMaxNeg=0)(AccelMaxPos=0)(MaxSpeed=0)(Distance=0)(DistanceDiff=0)(GsmRssi=0)(MsgNum=17)(TerminalDate=16.01.2013 14:30:11)(TerminalID=0)(Timestamp=01.01.0001 0:00:00)(FTemp=0)(BoardTemp=0)(AipVolt=0)(PowerVolt=0)(FSensor=0)(SumSensors=0)(HDop=0)(GpsSatNum=0)(GlonasSatNum=0)(Parameters=)] 
+11:10:56.845|DEBUG|HttpSendHandler|19|send to http://dev.asmsai.ru/asmsai.b2b/location.aspx?boardId=0864717003455833&version=&channel=gprs&msgNum=17&Sensors=0&sumSensors=0&longitude=38.493241&latitude=56.474602&boardTime=2013-01-16T14:30:11&gpsTime=2013-01-16T14:30:11&speed=0&maxSpeed=0&course=6400&isValid=True&satn=0&satk=0&gsmRssi=0&distance=0&distanceDiff=0&accelMaxNeg=0&accelMaxPos=0&fsensor=0&aipVolt=0&boardTemp=0&powerVolt=0&HDop=0&GpsSatNum=0&GlonasSatNum=0 message 
+11:10:57.120|INFO|HttpSendHandler|19|answer from server: OK 
+11:11:06.815|DEBUG|Gt02WireProtocol|18|receive data: 68-68-25-14-55-08-64-71-70-03-45-58-33-00-12-10-0D-01-10-0E-1E-0B-06-17-CF-BE-04-2A-47-AB-00-00-40-01-61-6F-00-00-00-07-0D-0A 
+11:11:06.815|DEBUG|Gt02WireProtocol|18|Received appropriate head bytes 104 104 
+11:11:06.815|DEBUG|Gt02WireProtocol|18|message length is 37 
+11:11:06.815|DEBUG|Gt02WireProtocol|18|Date: 16.01.2013 14:30:11 
+11:11:06.815|DEBUG|Gt02WireProtocol|18|Latitude: 56,7910033333333 
+11:11:06.815|DEBUG|Gt02WireProtocol|18|Longitude: 38,8220683333333 
+11:11:06.815|DEBUG|Gt02WireProtocol|18|Speed: 0 
+11:11:06.815|DEBUG|Gt02WireProtocol|18|Direction: 64 
+11:11:06.815|DEBUG|Gt02WireProtocol|18|Data 54-68-1A-0D-0A 
+11:11:06.815|DEBUG|Gt02Handler|18|gt02 sent: 54-68-1A-0D-0A 
+11:11:06.815|DEBUG|RequestDispatcher|18|incoming message: [Location: (IMEI=0864717003455833)(IsValid=True)(Lon=38,8220683333333)(Lat=56,7910033333333)(Angle=64)(Velocity=0)(PositionDate=16.01.2013 14:30:11)(Sensors=0)(Version=)(Satn=0)(Satk=0)(AccelMaxNeg=0)(AccelMaxPos=0)(MaxSpeed=0)(Distance=0)(DistanceDiff=0)(GsmRssi=0)(MsgNum=18)(TerminalDate=16.01.2013 14:30:11)(TerminalID=0)(Timestamp=01.01.0001 0:00:00)(FTemp=0)(BoardTemp=0)(AipVolt=0)(PowerVolt=0)(FSensor=0)(SumSensors=0)(HDop=0)(GpsSatNum=0)(GlonasSatNum=0)(Parameters=)] 
+11:11:06.815|DEBUG|HttpSendHandler|13|send to http://dev.asmsai.ru/asmsai.b2b/location.aspx?boardId=0864717003455833&version=&channel=gprs&msgNum=18&Sensors=0&sumSensors=0&longitude=38.493241&latitude=56.474602&boardTime=2013-01-16T14:30:11&gpsTime=2013-01-16T14:30:11&speed=0&maxSpeed=0&course=6400&isValid=True&satn=0&satk=0&gsmRssi=0&distance=0&distanceDiff=0&accelMaxNeg=0&accelMaxPos=0&fsensor=0&aipVolt=0&boardTemp=0&powerVolt=0&HDop=0&GpsSatNum=0&GlonasSatNum=0 message 
+11:11:06.853|INFO|HttpSendHandler|13|answer from server: OK 
+11:11:17.948|DEBUG|Gt02WireProtocol|3|receive data: 68-68-25-14-55-08-64-71-70-03-45-58-33-00-13-10-0D-01-10-0E-1E-0B-06-17-CF-BE-04-2A-47-AB-00-00-40-01-61-6F-00-00-00-07-0D-0A 
+11:11:17.948|DEBUG|Gt02WireProtocol|3|Received appropriate head bytes 104 104 
+11:11:17.948|DEBUG|Gt02WireProtocol|3|message length is 37 
+11:11:17.948|DEBUG|Gt02WireProtocol|3|Date: 16.01.2013 14:30:11 
+11:11:17.948|DEBUG|Gt02WireProtocol|3|Latitude: 56,7910033333333 
+11:11:17.948|DEBUG|Gt02WireProtocol|3|Longitude: 38,8220683333333 
+11:11:17.948|DEBUG|Gt02WireProtocol|3|Speed: 0 
+11:11:17.948|DEBUG|Gt02WireProtocol|3|Direction: 64 
+11:11:17.948|DEBUG|Gt02WireProtocol|3|Data 54-68-1A-0D-0A 
+11:11:17.948|DEBUG|Gt02Handler|3|gt02 sent: 54-68-1A-0D-0A 
+11:11:17.950|DEBUG|RequestDispatcher|3|incoming message: [Location: (IMEI=0864717003455833)(IsValid=True)(Lon=38,8220683333333)(Lat=56,7910033333333)(Angle=64)(Velocity=0)(PositionDate=16.01.2013 14:30:11)(Sensors=0)(Version=)(Satn=0)(Satk=0)(AccelMaxNeg=0)(AccelMaxPos=0)(MaxSpeed=0)(Distance=0)(DistanceDiff=0)(GsmRssi=0)(MsgNum=19)(TerminalDate=16.01.2013 14:30:11)(TerminalID=0)(Timestamp=01.01.0001 0:00:00)(FTemp=0)(BoardTemp=0)(AipVolt=0)(PowerVolt=0)(FSensor=0)(SumSensors=0)(HDop=0)(GpsSatNum=0)(GlonasSatNum=0)(Parameters=)] 
+11:11:17.950|DEBUG|HttpSendHandler|19|send to http://dev.asmsai.ru/asmsai.b2b/location.aspx?boardId=0864717003455833&version=&channel=gprs&msgNum=19&Sensors=0&sumSensors=0&longitude=38.493241&latitude=56.474602&boardTime=2013-01-16T14:30:11&gpsTime=2013-01-16T14:30:11&speed=0&maxSpeed=0&course=6400&isValid=True&satn=0&satk=0&gsmRssi=0&distance=0&distanceDiff=0&accelMaxNeg=0&accelMaxPos=0&fsensor=0&aipVolt=0&boardTemp=0&powerVolt=0&HDop=0&GpsSatNum=0&GlonasSatNum=0 message 
+11:11:17.982|INFO|HttpSendHandler|19|answer from server: OK 
+11:14:18.684|DEBUG|Gt02WireProtocol|3|receive data: 68-68-0F-06-04-08-64-71-70-03-45-58-33-18-F0-1A-04-D0-0D-0A 
+11:14:18.684|DEBUG|Gt02WireProtocol|3|Received appropriate head bytes 104 104 
+11:14:18.684|DEBUG|Gt02WireProtocol|3|message length is 15 
+11:14:18.684|DEBUG|Gt02WireProtocol|3|Parsing heartbeat package (17 bytes) 
+11:14:18.684|DEBUG|Gt02WireProtocol|3|Voltage level (0~6): 6 
+11:14:18.684|DEBUG|Gt02WireProtocol|3|GSM signal level (0~4): 4 
+11:14:18.684|DEBUG|Gt02WireProtocol|3|Locating status: 4 
+11:14:18.684|DEBUG|Gt02WireProtocol|3|Number of satellites: 4 
+11:14:24.408|DEBUG|Gt02Handler|3|Client Disconnected: 1,  
+11:15:29.945|DEBUG|Gt02Handler|14|Client Connected: 2 
+11:15:33.616|DEBUG|Gt02WireProtocol|3|receive data: 68-68-0F-06-04-08-64-71-70-03-45-58-33-F0-9F-1A-04-D0-0D-0A 
+11:15:33.616|DEBUG|Gt02WireProtocol|3|Received appropriate head bytes 104 104 
+11:15:33.616|DEBUG|Gt02WireProtocol|3|message length is 15 
+11:15:33.616|DEBUG|Gt02WireProtocol|3|Parsing heartbeat package (17 bytes) 
+11:15:33.616|DEBUG|Gt02WireProtocol|3|Voltage level (0~6): 6 
+11:15:33.616|DEBUG|Gt02WireProtocol|3|GSM signal level (0~4): 4 
+11:15:33.616|DEBUG|Gt02WireProtocol|3|Locating status: 4 
+11:15:33.616|DEBUG|Gt02WireProtocol|3|Number of satellites: 4 
+11:15:39.022|DEBUG|Gt02Handler|3|Client Disconnected: 2,  
+11:16:43.886|DEBUG|Gt02Handler|14|Client Connected: 3 
+11:16:47.310|DEBUG|Gt02WireProtocol|3|receive data: 68-68-0F-06-04-08-64-71-70-03-45-58-33-9F-E5-1A-04-D0-0D-0A 
+11:16:47.310|DEBUG|Gt02WireProtocol|3|Received appropriate head bytes 104 104 
+11:16:47.310|DEBUG|Gt02WireProtocol|3|message length is 15 
+11:16:47.310|DEBUG|Gt02WireProtocol|3|Parsing heartbeat package (17 bytes) 
+11:16:47.310|DEBUG|Gt02WireProtocol|3|Voltage level (0~6): 6 
+11:16:47.310|DEBUG|Gt02WireProtocol|3|GSM signal level (0~4): 4 
+11:16:47.310|DEBUG|Gt02WireProtocol|3|Locating status: 4 
+11:16:47.310|DEBUG|Gt02WireProtocol|3|Number of satellites: 4 
+11:16:48.367|INFO|DeviceManService|8|Stopping service. 
+11:16:48.367|INFO|RequestDispatcher|8|Service stopping... 
+11:16:48.409|DEBUG|Gt02Handler|8|Client Disconnected: 3,  
+11:16:48.409|INFO|RequestDispatcher|8|Device handler Race.Locator.Positioning.DeviceMan.Handler.Gt02Handler stopped 
+11:16:53.409|INFO|RequestDispatcher|8|Service stopped. 
+11:20:49.629|INFO|DeviceManService|9|Starting service. 
+11:20:49.659|INFO|RequestDispatcher|9|Initialization started 
+11:20:49.659|INFO|RequestDispatcher|9|Executing path : C:\Users\Аауи\Desktop\джибиэсу\new\src\WinServices\Race.Locator.Positioning.DeviceMan.Service\bin\Debug 
+11:20:49.659|INFO|RequestDispatcher|9|Device handlers file path : config\\DeviceHandlers.xml 
+11:20:49.736|INFO|RequestDispatcher|9|Device handler Race.Locator.Positioning.DeviceMan.Handler.Gt02Handler loaded 
+11:20:49.736|INFO|RequestDispatcher|9|System handlers file path : config\\SystemHandlers.xml 
+11:20:49.747|INFO|RequestDispatcher|9|System handler Race.Locator.Positioning.DeviceMan.Handler.HttpSendHandler loaded 
+11:20:49.747|INFO|RequestDispatcher|9|Initialization comlete 
+11:20:49.747|INFO|RequestDispatcher|9|Service starting... 
+11:20:49.763|INFO|RequestDispatcher|9|Device handler Race.Locator.Positioning.DeviceMan.Handler.Gt02Handler started 
+11:20:49.763|INFO|DeviceManService|9|Service started. 
+11:20:59.777|DEBUG|Gt02Handler|3|Client Connected: 1 
+11:21:03.342|DEBUG|Gt02WireProtocol|15|receive data: 68-68-0F-06-04-08-64-71-70-03-45-58-33-E5-18-1A-04-D0-0D-0A 
+11:21:03.345|DEBUG|Gt02WireProtocol|15|Received appropriate head bytes 104 104 
+11:21:03.345|DEBUG|Gt02WireProtocol|15|message length is 15 
+11:21:03.345|DEBUG|Gt02WireProtocol|15|Parsing heartbeat package (17 bytes) 
+11:21:03.345|DEBUG|Gt02WireProtocol|15|Voltage level (0~6): 6 
+11:21:03.345|DEBUG|Gt02WireProtocol|15|GSM signal level (0~4): 4 
+11:21:03.345|DEBUG|Gt02WireProtocol|15|Locating status: 4 
+11:21:03.345|DEBUG|Gt02WireProtocol|15|Number of satellites: 4 
+11:21:03.407|DEBUG|RequestDispatcher|15|incoming message: [Location: (IMEI=0864717003455833)(IsValid=False)(Lon=0)(Lat=0)(Angle=0)(Velocity=0)(PositionDate=01.01.0001 0:00:00)(Sensors=0)(Version=)(Satn=0)(Satk=0)(AccelMaxNeg=0)(AccelMaxPos=0)(MaxSpeed=0)(Distance=0)(DistanceDiff=0)(GsmRssi=0)(MsgNum=3688)(TerminalDate=01.01.0001 0:00:00)(TerminalID=0)(Timestamp=01.01.0001 0:00:00)(FTemp=0)(BoardTemp=0)(AipVolt=0)(PowerVolt=0)(FSensor=0)(SumSensors=0)(HDop=0)(GpsSatNum=0)(GlonasSatNum=0)(Parameters=)] 
+11:21:03.407|DEBUG|HttpSendHandler|14|send to http://dev.asmsai.ru/asmsai.b2b/location.aspx?boardId=0864717003455833&version=&channel=gprs&msgNum=3688&Sensors=0&sumSensors=0&longitude=0.000000&latitude=0.000000&boardTime=0001-01-01T00:00:00&gpsTime=0001-01-01T00:00:00&speed=0&maxSpeed=0&course=0&isValid=False&satn=0&satk=0&gsmRssi=0&distance=0&distanceDiff=0&accelMaxNeg=0&accelMaxPos=0&fsensor=0&aipVolt=0&boardTemp=0&powerVolt=0&HDop=0&GpsSatNum=0&GlonasSatNum=0 message 
+11:21:05.985|INFO|HttpSendHandler|14|answer from server: OK 
+11:21:08.959|DEBUG|Gt02Handler|16|Client Disconnected: 1,  
+11:21:26.407|INFO|DeviceManService|9|Stopping service. 
+11:21:26.407|INFO|RequestDispatcher|9|Service stopping... 
+11:21:26.419|INFO|RequestDispatcher|9|Device handler Race.Locator.Positioning.DeviceMan.Handler.Gt02Handler stopped 
+11:21:31.420|INFO|RequestDispatcher|9|Service stopped. 
+11:22:48.139|INFO|DeviceManService|9|Starting service. 
+11:22:48.176|INFO|RequestDispatcher|9|Initialization started 
+11:22:48.176|INFO|RequestDispatcher|9|Executing path : C:\Users\Аауи\Desktop\джибиэсу\new\src\WinServices\Race.Locator.Positioning.DeviceMan.Service\bin\Debug 
+11:22:48.176|INFO|RequestDispatcher|9|Device handlers file path : config\\DeviceHandlers.xml 
+11:22:48.213|INFO|RequestDispatcher|9|Device handler Race.Locator.Positioning.DeviceMan.Handler.Gt02Handler loaded 
+11:22:48.213|INFO|RequestDispatcher|9|System handlers file path : config\\SystemHandlers.xml 
+11:22:48.226|INFO|RequestDispatcher|9|System handler Race.Locator.Positioning.DeviceMan.Handler.HttpSendHandler loaded 
+11:22:48.226|INFO|RequestDispatcher|9|Initialization comlete 
+11:22:48.226|INFO|RequestDispatcher|9|Service starting... 
+11:22:48.243|INFO|RequestDispatcher|9|Device handler Race.Locator.Positioning.DeviceMan.Handler.Gt02Handler started 
+11:22:48.243|INFO|DeviceManService|9|Service started. 
+11:22:55.505|DEBUG|Gt02Handler|15|Client Connected: 1 
+11:22:58.998|DEBUG|Gt02WireProtocol|17|receive data: 68-68-0F-06-04-08-64-71-70-03-45-58-33-18-F0-1A-04-D0-0D-0A 
+11:22:58.998|DEBUG|Gt02WireProtocol|17|Received appropriate head bytes 104 104 
+11:22:58.998|DEBUG|Gt02WireProtocol|17|message length is 15 
+11:22:59.006|DEBUG|Gt02WireProtocol|17|Parsing heartbeat package (17 bytes) 
+11:22:59.006|DEBUG|Gt02WireProtocol|17|Voltage level (0~6): 6 
+11:22:59.006|DEBUG|Gt02WireProtocol|17|GSM signal level (0~4): 4 
+11:22:59.006|DEBUG|Gt02WireProtocol|17|Locating status: 4 
+11:22:59.006|DEBUG|Gt02WireProtocol|17|Number of satellites: 4 
+11:22:59.006|DEBUG|Gt02WireProtocol|17|Data 54-68-1A-0D-0A 
+11:22:59.006|DEBUG|Gt02Handler|17|gt02 sent: 54-68-1A-0D-0A 
+11:22:59.054|DEBUG|RequestDispatcher|17|incoming message: [Location: (IMEI=0864717003455833)(IsValid=False)(Lon=0)(Lat=0)(Angle=0)(Velocity=0)(PositionDate=01.01.0001 0:00:00)(Sensors=0)(Version=)(Satn=0)(Satk=0)(AccelMaxNeg=0)(AccelMaxPos=0)(MaxSpeed=0)(Distance=0)(DistanceDiff=0)(GsmRssi=0)(MsgNum=624)(TerminalDate=01.01.0001 0:00:00)(TerminalID=0)(Timestamp=01.01.0001 0:00:00)(FTemp=0)(BoardTemp=0)(AipVolt=0)(PowerVolt=0)(FSensor=0)(SumSensors=0)(HDop=0)(GpsSatNum=0)(GlonasSatNum=0)(Parameters=)] 
+11:22:59.054|DEBUG|HttpSendHandler|16|send to http://dev.asmsai.ru/asmsai.b2b/location.aspx?boardId=0864717003455833&version=&channel=gprs&msgNum=624&Sensors=0&sumSensors=0&longitude=0.000000&latitude=0.000000&boardTime=0001-01-01T00:00:00&gpsTime=0001-01-01T00:00:00&speed=0&maxSpeed=0&course=0&isValid=False&satn=0&satk=0&gsmRssi=0&distance=0&distanceDiff=0&accelMaxNeg=0&accelMaxPos=0&fsensor=0&aipVolt=0&boardTemp=0&powerVolt=0&HDop=0&GpsSatNum=0&GlonasSatNum=0 message 
+11:23:01.600|INFO|HttpSendHandler|16|answer from server: OK 
+11:25:03.744|INFO|DeviceManService|9|Stopping service. 
+11:25:03.744|INFO|RequestDispatcher|9|Service stopping... 
+11:25:03.773|DEBUG|Gt02Handler|9|Client Disconnected: 1,  
+11:25:03.773|INFO|RequestDispatcher|9|Device handler Race.Locator.Positioning.DeviceMan.Handler.Gt02Handler stopped 
+11:25:08.773|INFO|RequestDispatcher|9|Service stopped. 
+11:37:55.891|INFO|DeviceManService|9|Starting service. 
+11:37:55.928|INFO|RequestDispatcher|9|Initialization started 
+11:37:55.932|INFO|RequestDispatcher|9|Executing path : C:\Users\Аауи\Desktop\джибиэсу\new\src\WinServices\Race.Locator.Positioning.DeviceMan.Service\bin\Debug 
+11:37:55.932|INFO|RequestDispatcher|9|Device handlers file path : config\\DeviceHandlers.xml 
+11:37:55.965|INFO|RequestDispatcher|9|Device handler Race.Locator.Positioning.DeviceMan.Handler.Gt02Handler loaded 
+11:37:55.965|INFO|RequestDispatcher|9|System handlers file path : config\\SystemHandlers.xml 
+11:37:55.977|INFO|RequestDispatcher|9|System handler Race.Locator.Positioning.DeviceMan.Handler.HttpSendHandler loaded 
+11:37:55.977|INFO|RequestDispatcher|9|Initialization comlete 
+11:37:55.977|INFO|RequestDispatcher|9|Service starting... 
+11:37:55.994|INFO|RequestDispatcher|9|Device handler Race.Locator.Positioning.DeviceMan.Handler.Gt02Handler started 
+11:37:55.994|INFO|DeviceManService|9|Service started. 
+11:39:17.719|DEBUG|Gt02Handler|4|Client Connected: 1 
+11:39:17.784|DEBUG|Gt02WireProtocol|18|receive data: 68-68-25-14-55-08-64-71-70-03-45-58-33-00-01-10-0D-01-10-0E-1E-0B-06-17-CF-BE-04-2A-47-AB-00-00-40-01-61-6F-00-00-00-07-0D-0A 
+11:39:17.785|DEBUG|Gt02WireProtocol|18|Received appropriate head bytes 104 104 
+11:39:17.785|DEBUG|Gt02WireProtocol|18|message length is 37 
+11:39:17.822|DEBUG|Gt02WireProtocol|18|Date: 16.01.2013 14:30:11 
+11:39:17.822|DEBUG|Gt02WireProtocol|18|Latitude: 56,7910033333333 
+11:39:17.822|DEBUG|Gt02WireProtocol|18|Longitude: 38,8220683333333 
+11:39:17.822|DEBUG|Gt02WireProtocol|18|Speed: 0 
+11:39:17.822|DEBUG|Gt02WireProtocol|18|Direction: 64 
+11:39:17.822|DEBUG|Gt02WireProtocol|18|Data 54-68-1A-0D-0A 
+11:39:17.822|DEBUG|Gt02Handler|18|gt02 sent: 54-68-1A-0D-0A 
+11:39:17.834|DEBUG|RequestDispatcher|18|incoming message: [Location: (IMEI=0864717003455833)(IsValid=True)(Lon=38,8220683333333)(Lat=56,7910033333333)(Angle=64)(Velocity=0)(PositionDate=16.01.2013 14:30:11)(Sensors=0)(Version=)(Satn=0)(Satk=0)(AccelMaxNeg=0)(AccelMaxPos=0)(MaxSpeed=0)(Distance=0)(DistanceDiff=0)(GsmRssi=0)(MsgNum=1)(TerminalDate=16.01.2013 14:30:11)(TerminalID=0)(Timestamp=01.01.0001 0:00:00)(FTemp=0)(BoardTemp=0)(AipVolt=0)(PowerVolt=0)(FSensor=0)(SumSensors=0)(HDop=0)(GpsSatNum=0)(GlonasSatNum=0)(Parameters=)] 
+11:39:17.834|DEBUG|HttpSendHandler|17|send to http://dev.asmsai.ru/asmsai.b2b/location.aspx?boardId=0864717003455833&version=&channel=gprs&msgNum=1&Sensors=0&sumSensors=0&longitude=38.493241&latitude=56.474602&boardTime=2013-01-16T14:30:11&gpsTime=2013-01-16T14:30:11&speed=0&maxSpeed=0&course=6400&isValid=True&satn=0&satk=0&gsmRssi=0&distance=0&distanceDiff=0&accelMaxNeg=0&accelMaxPos=0&fsensor=0&aipVolt=0&boardTemp=0&powerVolt=0&HDop=0&GpsSatNum=0&GlonasSatNum=0 message 
+11:39:20.669|INFO|HttpSendHandler|17|answer from server: OK 
+11:39:28.186|DEBUG|Gt02WireProtocol|18|receive data: 68-68-25-14-55-08-64-71-70-03-45-58-33-00-02-10-0D-01-10-0E-1E-0B-06-17-CF-BE-04-2A-47-AB-00-00-40-01-61-6F-00-00-00-07-0D-0A 
+11:39:28.186|DEBUG|Gt02WireProtocol|18|Received appropriate head bytes 104 104 
+11:39:28.186|DEBUG|Gt02WireProtocol|18|message length is 37 
+11:39:28.186|DEBUG|Gt02WireProtocol|18|Date: 16.01.2013 14:30:11 
+11:39:28.186|DEBUG|Gt02WireProtocol|18|Latitude: 56,7910033333333 
+11:39:28.186|DEBUG|Gt02WireProtocol|18|Longitude: 38,8220683333333 
+11:39:28.186|DEBUG|Gt02WireProtocol|18|Speed: 0 
+11:39:28.186|DEBUG|Gt02WireProtocol|18|Direction: 64 
+11:39:28.186|DEBUG|Gt02WireProtocol|18|Data 54-68-1A-0D-0A 
+11:39:28.186|DEBUG|Gt02Handler|18|gt02 sent: 54-68-1A-0D-0A 
+11:39:28.186|DEBUG|RequestDispatcher|18|incoming message: [Location: (IMEI=0864717003455833)(IsValid=True)(Lon=38,8220683333333)(Lat=56,7910033333333)(Angle=64)(Velocity=0)(PositionDate=16.01.2013 14:30:11)(Sensors=0)(Version=)(Satn=0)(Satk=0)(AccelMaxNeg=0)(AccelMaxPos=0)(MaxSpeed=0)(Distance=0)(DistanceDiff=0)(GsmRssi=0)(MsgNum=2)(TerminalDate=16.01.2013 14:30:11)(TerminalID=0)(Timestamp=01.01.0001 0:00:00)(FTemp=0)(BoardTemp=0)(AipVolt=0)(PowerVolt=0)(FSensor=0)(SumSensors=0)(HDop=0)(GpsSatNum=0)(GlonasSatNum=0)(Parameters=)] 
+11:39:28.186|DEBUG|HttpSendHandler|14|send to http://dev.asmsai.ru/asmsai.b2b/location.aspx?boardId=0864717003455833&version=&channel=gprs&msgNum=2&Sensors=0&sumSensors=0&longitude=38.493241&latitude=56.474602&boardTime=2013-01-16T14:30:11&gpsTime=2013-01-16T14:30:11&speed=0&maxSpeed=0&course=6400&isValid=True&satn=0&satk=0&gsmRssi=0&distance=0&distanceDiff=0&accelMaxNeg=0&accelMaxPos=0&fsensor=0&aipVolt=0&boardTemp=0&powerVolt=0&HDop=0&GpsSatNum=0&GlonasSatNum=0 message 
+11:39:28.225|INFO|HttpSendHandler|14|answer from server: OK 
+11:39:38.057|DEBUG|Gt02WireProtocol|18|receive data: 68-68-25-14-55-08-64-71-70-03-45-58-33-00-03-10-0D-01-10-0E-1E-0B-06-17-CF-BE-04-2A-47-AB-00-00-40-01-61-6F-00-00-00-07-0D-0A 
+11:39:38.057|DEBUG|Gt02WireProtocol|18|Received appropriate head bytes 104 104 
+11:39:38.057|DEBUG|Gt02WireProtocol|18|message length is 37 
+11:39:38.057|DEBUG|Gt02WireProtocol|18|Date: 16.01.2013 14:30:11 
+11:39:38.057|DEBUG|Gt02WireProtocol|18|Latitude: 56,7910033333333 
+11:39:38.057|DEBUG|Gt02WireProtocol|18|Longitude: 38,8220683333333 
+11:39:38.057|DEBUG|Gt02WireProtocol|18|Speed: 0 
+11:39:38.057|DEBUG|Gt02WireProtocol|18|Direction: 64 
+11:39:38.057|DEBUG|Gt02WireProtocol|18|Data 54-68-1A-0D-0A 
+11:39:38.057|DEBUG|Gt02Handler|18|gt02 sent: 54-68-1A-0D-0A 
+11:39:38.057|DEBUG|RequestDispatcher|18|incoming message: [Location: (IMEI=0864717003455833)(IsValid=True)(Lon=38,8220683333333)(Lat=56,7910033333333)(Angle=64)(Velocity=0)(PositionDate=16.01.2013 14:30:11)(Sensors=0)(Version=)(Satn=0)(Satk=0)(AccelMaxNeg=0)(AccelMaxPos=0)(MaxSpeed=0)(Distance=0)(DistanceDiff=0)(GsmRssi=0)(MsgNum=3)(TerminalDate=16.01.2013 14:30:11)(TerminalID=0)(Timestamp=01.01.0001 0:00:00)(FTemp=0)(BoardTemp=0)(AipVolt=0)(PowerVolt=0)(FSensor=0)(SumSensors=0)(HDop=0)(GpsSatNum=0)(GlonasSatNum=0)(Parameters=)] 
+11:39:38.057|DEBUG|HttpSendHandler|16|send to http://dev.asmsai.ru/asmsai.b2b/location.aspx?boardId=0864717003455833&version=&channel=gprs&msgNum=3&Sensors=0&sumSensors=0&longitude=38.493241&latitude=56.474602&boardTime=2013-01-16T14:30:11&gpsTime=2013-01-16T14:30:11&speed=0&maxSpeed=0&course=6400&isValid=True&satn=0&satk=0&gsmRssi=0&distance=0&distanceDiff=0&accelMaxNeg=0&accelMaxPos=0&fsensor=0&aipVolt=0&boardTemp=0&powerVolt=0&HDop=0&GpsSatNum=0&GlonasSatNum=0 message 
+11:39:38.140|INFO|HttpSendHandler|16|answer from server: OK 
+11:39:48.060|DEBUG|Gt02WireProtocol|18|receive data: 68-68-25-14-55-08-64-71-70-03-45-58-33-00-04-10-0D-01-10-0E-1E-0B-06-17-CF-BE-04-2A-47-AB-00-00-40-01-61-6F-00-00-00-07-0D-0A 
+11:39:48.060|DEBUG|Gt02WireProtocol|18|Received appropriate head bytes 104 104 
+11:39:48.060|DEBUG|Gt02WireProtocol|18|message length is 37 
+11:39:48.060|DEBUG|Gt02WireProtocol|18|Date: 16.01.2013 14:30:11 
+11:39:48.060|DEBUG|Gt02WireProtocol|18|Latitude: 56,7910033333333 
+11:39:48.060|DEBUG|Gt02WireProtocol|18|Longitude: 38,8220683333333 
+11:39:48.060|DEBUG|Gt02WireProtocol|18|Speed: 0 
+11:39:48.060|DEBUG|Gt02WireProtocol|18|Direction: 64 
+11:39:48.060|DEBUG|Gt02WireProtocol|18|Data 54-68-1A-0D-0A 
+11:39:48.060|DEBUG|Gt02Handler|18|gt02 sent: 54-68-1A-0D-0A 
+11:39:48.060|DEBUG|RequestDispatcher|18|incoming message: [Location: (IMEI=0864717003455833)(IsValid=True)(Lon=38,8220683333333)(Lat=56,7910033333333)(Angle=64)(Velocity=0)(PositionDate=16.01.2013 14:30:11)(Sensors=0)(Version=)(Satn=0)(Satk=0)(AccelMaxNeg=0)(AccelMaxPos=0)(MaxSpeed=0)(Distance=0)(DistanceDiff=0)(GsmRssi=0)(MsgNum=4)(TerminalDate=16.01.2013 14:30:11)(TerminalID=0)(Timestamp=01.01.0001 0:00:00)(FTemp=0)(BoardTemp=0)(AipVolt=0)(PowerVolt=0)(FSensor=0)(SumSensors=0)(HDop=0)(GpsSatNum=0)(GlonasSatNum=0)(Parameters=)] 
+11:39:48.060|DEBUG|HttpSendHandler|13|send to http://dev.asmsai.ru/asmsai.b2b/location.aspx?boardId=0864717003455833&version=&channel=gprs&msgNum=4&Sensors=0&sumSensors=0&longitude=38.493241&latitude=56.474602&boardTime=2013-01-16T14:30:11&gpsTime=2013-01-16T14:30:11&speed=0&maxSpeed=0&course=6400&isValid=True&satn=0&satk=0&gsmRssi=0&distance=0&distanceDiff=0&accelMaxNeg=0&accelMaxPos=0&fsensor=0&aipVolt=0&boardTemp=0&powerVolt=0&HDop=0&GpsSatNum=0&GlonasSatNum=0 message 
+11:39:48.100|INFO|HttpSendHandler|13|answer from server: OK 
+11:39:58.168|DEBUG|Gt02WireProtocol|18|receive data: 68-68-25-14-55-08-64-71-70-03-45-58-33-00-05-10-0D-01-10-0E-1E-0B-06-17-CF-BE-04-2A-47-AB-00-00-40-01-61-6F-00-00-00-07-0D-0A 
+11:39:58.168|DEBUG|Gt02WireProtocol|18|Received appropriate head bytes 104 104 
+11:39:58.168|DEBUG|Gt02WireProtocol|18|message length is 37 
+11:39:58.168|DEBUG|Gt02WireProtocol|18|Date: 16.01.2013 14:30:11 
+11:39:58.168|DEBUG|Gt02WireProtocol|18|Latitude: 56,7910033333333 
+11:39:58.168|DEBUG|Gt02WireProtocol|18|Longitude: 38,8220683333333 
+11:39:58.168|DEBUG|Gt02WireProtocol|18|Speed: 0 
+11:39:58.168|DEBUG|Gt02WireProtocol|18|Direction: 64 
+11:39:58.168|DEBUG|Gt02WireProtocol|18|Data 54-68-1A-0D-0A 
+11:39:58.168|DEBUG|Gt02Handler|18|gt02 sent: 54-68-1A-0D-0A 
+11:39:58.168|DEBUG|RequestDispatcher|18|incoming message: [Location: (IMEI=0864717003455833)(IsValid=True)(Lon=38,8220683333333)(Lat=56,7910033333333)(Angle=64)(Velocity=0)(PositionDate=16.01.2013 14:30:11)(Sensors=0)(Version=)(Satn=0)(Satk=0)(AccelMaxNeg=0)(AccelMaxPos=0)(MaxSpeed=0)(Distance=0)(DistanceDiff=0)(GsmRssi=0)(MsgNum=5)(TerminalDate=16.01.2013 14:30:11)(TerminalID=0)(Timestamp=01.01.0001 0:00:00)(FTemp=0)(BoardTemp=0)(AipVolt=0)(PowerVolt=0)(FSensor=0)(SumSensors=0)(HDop=0)(GpsSatNum=0)(GlonasSatNum=0)(Parameters=)] 
+11:39:58.168|DEBUG|HttpSendHandler|13|send to http://dev.asmsai.ru/asmsai.b2b/location.aspx?boardId=0864717003455833&version=&channel=gprs&msgNum=5&Sensors=0&sumSensors=0&longitude=38.493241&latitude=56.474602&boardTime=2013-01-16T14:30:11&gpsTime=2013-01-16T14:30:11&speed=0&maxSpeed=0&course=6400&isValid=True&satn=0&satk=0&gsmRssi=0&distance=0&distanceDiff=0&accelMaxNeg=0&accelMaxPos=0&fsensor=0&aipVolt=0&boardTemp=0&powerVolt=0&HDop=0&GpsSatNum=0&GlonasSatNum=0 message 
+11:39:58.536|INFO|HttpSendHandler|13|answer from server: OK 
+11:40:08.051|DEBUG|Gt02WireProtocol|19|receive data: 68-68-25-14-55-08-64-71-70-03-45-58-33-00-06-10-0D-01-10-0E-1E-0B-06-17-CF-BE-04-2A-47-AB-00-00-40-01-61-6F-00-00-00-07-0D-0A 
+11:40:08.051|DEBUG|Gt02WireProtocol|19|Received appropriate head bytes 104 104 
+11:40:08.051|DEBUG|Gt02WireProtocol|19|message length is 37 
+11:40:08.051|DEBUG|Gt02WireProtocol|19|Date: 16.01.2013 14:30:11 
+11:40:08.051|DEBUG|Gt02WireProtocol|19|Latitude: 56,7910033333333 
+11:40:08.051|DEBUG|Gt02WireProtocol|19|Longitude: 38,8220683333333 
+11:40:08.051|DEBUG|Gt02WireProtocol|19|Speed: 0 
+11:40:08.051|DEBUG|Gt02WireProtocol|19|Direction: 64 
+11:40:08.051|DEBUG|Gt02WireProtocol|19|Data 54-68-1A-0D-0A 
+11:40:08.051|DEBUG|Gt02Handler|19|gt02 sent: 54-68-1A-0D-0A 
+11:40:08.051|DEBUG|RequestDispatcher|19|incoming message: [Location: (IMEI=0864717003455833)(IsValid=True)(Lon=38,8220683333333)(Lat=56,7910033333333)(Angle=64)(Velocity=0)(PositionDate=16.01.2013 14:30:11)(Sensors=0)(Version=)(Satn=0)(Satk=0)(AccelMaxNeg=0)(AccelMaxPos=0)(MaxSpeed=0)(Distance=0)(DistanceDiff=0)(GsmRssi=0)(MsgNum=6)(TerminalDate=16.01.2013 14:30:11)(TerminalID=0)(Timestamp=01.01.0001 0:00:00)(FTemp=0)(BoardTemp=0)(AipVolt=0)(PowerVolt=0)(FSensor=0)(SumSensors=0)(HDop=0)(GpsSatNum=0)(GlonasSatNum=0)(Parameters=)] 
+11:40:08.051|DEBUG|HttpSendHandler|13|send to http://dev.asmsai.ru/asmsai.b2b/location.aspx?boardId=0864717003455833&version=&channel=gprs&msgNum=6&Sensors=0&sumSensors=0&longitude=38.493241&latitude=56.474602&boardTime=2013-01-16T14:30:11&gpsTime=2013-01-16T14:30:11&speed=0&maxSpeed=0&course=6400&isValid=True&satn=0&satk=0&gsmRssi=0&distance=0&distanceDiff=0&accelMaxNeg=0&accelMaxPos=0&fsensor=0&aipVolt=0&boardTemp=0&powerVolt=0&HDop=0&GpsSatNum=0&GlonasSatNum=0 message 
+11:40:08.191|INFO|HttpSendHandler|13|answer from server: OK 
+11:40:18.036|DEBUG|Gt02WireProtocol|19|receive data: 68-68-25-14-55-08-64-71-70-03-45-58-33-00-07-10-0D-01-10-0E-1E-0B-06-17-CF-BE-04-2A-47-AB-00-00-40-01-61-6F-00-00-00-07-0D-0A 
+11:40:18.036|DEBUG|Gt02WireProtocol|19|Received appropriate head bytes 104 104 
+11:40:18.036|DEBUG|Gt02WireProtocol|19|message length is 37 
+11:40:18.036|DEBUG|Gt02WireProtocol|19|Date: 16.01.2013 14:30:11 
+11:40:18.036|DEBUG|Gt02WireProtocol|19|Latitude: 56,7910033333333 
+11:40:18.036|DEBUG|Gt02WireProtocol|19|Longitude: 38,8220683333333 
+11:40:18.036|DEBUG|Gt02WireProtocol|19|Speed: 0 
+11:40:18.036|DEBUG|Gt02WireProtocol|19|Direction: 64 
+11:40:18.036|DEBUG|Gt02WireProtocol|19|Data 54-68-1A-0D-0A 
+11:40:18.036|DEBUG|Gt02Handler|19|gt02 sent: 54-68-1A-0D-0A 
+11:40:18.036|DEBUG|RequestDispatcher|19|incoming message: [Location: (IMEI=0864717003455833)(IsValid=True)(Lon=38,8220683333333)(Lat=56,7910033333333)(Angle=64)(Velocity=0)(PositionDate=16.01.2013 14:30:11)(Sensors=0)(Version=)(Satn=0)(Satk=0)(AccelMaxNeg=0)(AccelMaxPos=0)(MaxSpeed=0)(Distance=0)(DistanceDiff=0)(GsmRssi=0)(MsgNum=7)(TerminalDate=16.01.2013 14:30:11)(TerminalID=0)(Timestamp=01.01.0001 0:00:00)(FTemp=0)(BoardTemp=0)(AipVolt=0)(PowerVolt=0)(FSensor=0)(SumSensors=0)(HDop=0)(GpsSatNum=0)(GlonasSatNum=0)(Parameters=)] 
+11:40:18.036|DEBUG|HttpSendHandler|16|send to http://dev.asmsai.ru/asmsai.b2b/location.aspx?boardId=0864717003455833&version=&channel=gprs&msgNum=7&Sensors=0&sumSensors=0&longitude=38.493241&latitude=56.474602&boardTime=2013-01-16T14:30:11&gpsTime=2013-01-16T14:30:11&speed=0&maxSpeed=0&course=6400&isValid=True&satn=0&satk=0&gsmRssi=0&distance=0&distanceDiff=0&accelMaxNeg=0&accelMaxPos=0&fsensor=0&aipVolt=0&boardTemp=0&powerVolt=0&HDop=0&GpsSatNum=0&GlonasSatNum=0 message 
+11:40:18.075|INFO|HttpSendHandler|16|answer from server: OK 
+11:40:28.015|DEBUG|Gt02WireProtocol|21|receive data: 68-68-25-14-55-08-64-71-70-03-45-58-33-00-08-10-0D-01-10-0E-1E-0B-06-17-CF-BE-04-2A-47-AB-00-00-40-01-61-6F-00-00-00-07-0D-0A 
+11:40:28.017|DEBUG|Gt02WireProtocol|21|Received appropriate head bytes 104 104 
+11:40:28.017|DEBUG|Gt02WireProtocol|21|message length is 37 
+11:40:28.017|DEBUG|Gt02WireProtocol|21|Date: 16.01.2013 14:30:11 
+11:40:28.017|DEBUG|Gt02WireProtocol|21|Latitude: 56,7910033333333 
+11:40:28.017|DEBUG|Gt02WireProtocol|21|Longitude: 38,8220683333333 
+11:40:28.017|DEBUG|Gt02WireProtocol|21|Speed: 0 
+11:40:28.017|DEBUG|Gt02WireProtocol|21|Direction: 64 
+11:40:28.017|DEBUG|Gt02WireProtocol|21|Data 54-68-1A-0D-0A 
+11:40:28.017|DEBUG|Gt02Handler|21|gt02 sent: 54-68-1A-0D-0A 
+11:40:28.017|DEBUG|RequestDispatcher|21|incoming message: [Location: (IMEI=0864717003455833)(IsValid=True)(Lon=38,8220683333333)(Lat=56,7910033333333)(Angle=64)(Velocity=0)(PositionDate=16.01.2013 14:30:11)(Sensors=0)(Version=)(Satn=0)(Satk=0)(AccelMaxNeg=0)(AccelMaxPos=0)(MaxSpeed=0)(Distance=0)(DistanceDiff=0)(GsmRssi=0)(MsgNum=8)(TerminalDate=16.01.2013 14:30:11)(TerminalID=0)(Timestamp=01.01.0001 0:00:00)(FTemp=0)(BoardTemp=0)(AipVolt=0)(PowerVolt=0)(FSensor=0)(SumSensors=0)(HDop=0)(GpsSatNum=0)(GlonasSatNum=0)(Parameters=)] 
+11:40:28.017|DEBUG|HttpSendHandler|16|send to http://dev.asmsai.ru/asmsai.b2b/location.aspx?boardId=0864717003455833&version=&channel=gprs&msgNum=8&Sensors=0&sumSensors=0&longitude=38.493241&latitude=56.474602&boardTime=2013-01-16T14:30:11&gpsTime=2013-01-16T14:30:11&speed=0&maxSpeed=0&course=6400&isValid=True&satn=0&satk=0&gsmRssi=0&distance=0&distanceDiff=0&accelMaxNeg=0&accelMaxPos=0&fsensor=0&aipVolt=0&boardTemp=0&powerVolt=0&HDop=0&GpsSatNum=0&GlonasSatNum=0 message 
+11:40:28.074|INFO|HttpSendHandler|16|answer from server: OK 
+11:40:37.955|DEBUG|Gt02WireProtocol|21|receive data: 68-68-25-14-55-08-64-71-70-03-45-58-33-00-09-10-0D-01-10-0E-1E-0B-06-17-CF-BE-04-2A-47-AB-00-00-40-01-61-6F-00-00-00-07-0D-0A 
+11:40:37.955|DEBUG|Gt02WireProtocol|21|Received appropriate head bytes 104 104 
+11:40:37.955|DEBUG|Gt02WireProtocol|21|message length is 37 
+11:40:37.955|DEBUG|Gt02WireProtocol|21|Date: 16.01.2013 14:30:11 
+11:40:37.955|DEBUG|Gt02WireProtocol|21|Latitude: 56,7910033333333 
+11:40:37.955|DEBUG|Gt02WireProtocol|21|Longitude: 38,8220683333333 
+11:40:37.955|DEBUG|Gt02WireProtocol|21|Speed: 0 
+11:40:37.955|DEBUG|Gt02WireProtocol|21|Direction: 64 
+11:40:37.955|DEBUG|Gt02WireProtocol|21|Data 54-68-1A-0D-0A 
+11:40:37.955|DEBUG|Gt02Handler|21|gt02 sent: 54-68-1A-0D-0A 
+11:40:37.955|DEBUG|RequestDispatcher|21|incoming message: [Location: (IMEI=0864717003455833)(IsValid=True)(Lon=38,8220683333333)(Lat=56,7910033333333)(Angle=64)(Velocity=0)(PositionDate=16.01.2013 14:30:11)(Sensors=0)(Version=)(Satn=0)(Satk=0)(AccelMaxNeg=0)(AccelMaxPos=0)(MaxSpeed=0)(Distance=0)(DistanceDiff=0)(GsmRssi=0)(MsgNum=9)(TerminalDate=16.01.2013 14:30:11)(TerminalID=0)(Timestamp=01.01.0001 0:00:00)(FTemp=0)(BoardTemp=0)(AipVolt=0)(PowerVolt=0)(FSensor=0)(SumSensors=0)(HDop=0)(GpsSatNum=0)(GlonasSatNum=0)(Parameters=)] 
+11:40:37.955|DEBUG|HttpSendHandler|14|send to http://dev.asmsai.ru/asmsai.b2b/location.aspx?boardId=0864717003455833&version=&channel=gprs&msgNum=9&Sensors=0&sumSensors=0&longitude=38.493241&latitude=56.474602&boardTime=2013-01-16T14:30:11&gpsTime=2013-01-16T14:30:11&speed=0&maxSpeed=0&course=6400&isValid=True&satn=0&satk=0&gsmRssi=0&distance=0&distanceDiff=0&accelMaxNeg=0&accelMaxPos=0&fsensor=0&aipVolt=0&boardTemp=0&powerVolt=0&HDop=0&GpsSatNum=0&GlonasSatNum=0 message 
+11:40:37.993|INFO|HttpSendHandler|14|answer from server: OK 
+11:40:47.907|DEBUG|Gt02WireProtocol|21|receive data: 68-68-25-14-55-08-64-71-70-03-45-58-33-00-0A-10-0D-01-10-0E-1E-0B-06-17-CF-BE-04-2A-47-AB-00-00-40-01-61-6F-00-00-00-07-0D-0A 
+11:40:47.907|DEBUG|Gt02WireProtocol|21|Received appropriate head bytes 104 104 
+11:40:47.907|DEBUG|Gt02WireProtocol|21|message length is 37 
+11:40:47.907|DEBUG|Gt02WireProtocol|21|Date: 16.01.2013 14:30:11 
+11:40:47.907|DEBUG|Gt02WireProtocol|21|Latitude: 56,7910033333333 
+11:40:47.907|DEBUG|Gt02WireProtocol|21|Longitude: 38,8220683333333 
+11:40:47.907|DEBUG|Gt02WireProtocol|21|Speed: 0 
+11:40:47.907|DEBUG|Gt02WireProtocol|21|Direction: 64 
+11:40:47.907|DEBUG|Gt02WireProtocol|21|Data 54-68-1A-0D-0A 
+11:40:47.907|DEBUG|Gt02Handler|21|gt02 sent: 54-68-1A-0D-0A 
+11:40:47.907|DEBUG|RequestDispatcher|21|incoming message: [Location: (IMEI=0864717003455833)(IsValid=True)(Lon=38,8220683333333)(Lat=56,7910033333333)(Angle=64)(Velocity=0)(PositionDate=16.01.2013 14:30:11)(Sensors=0)(Version=)(Satn=0)(Satk=0)(AccelMaxNeg=0)(AccelMaxPos=0)(MaxSpeed=0)(Distance=0)(DistanceDiff=0)(GsmRssi=0)(MsgNum=10)(TerminalDate=16.01.2013 14:30:11)(TerminalID=0)(Timestamp=01.01.0001 0:00:00)(FTemp=0)(BoardTemp=0)(AipVolt=0)(PowerVolt=0)(FSensor=0)(SumSensors=0)(HDop=0)(GpsSatNum=0)(GlonasSatNum=0)(Parameters=)] 
+11:40:47.907|DEBUG|HttpSendHandler|16|send to http://dev.asmsai.ru/asmsai.b2b/location.aspx?boardId=0864717003455833&version=&channel=gprs&msgNum=10&Sensors=0&sumSensors=0&longitude=38.493241&latitude=56.474602&boardTime=2013-01-16T14:30:11&gpsTime=2013-01-16T14:30:11&speed=0&maxSpeed=0&course=6400&isValid=True&satn=0&satk=0&gsmRssi=0&distance=0&distanceDiff=0&accelMaxNeg=0&accelMaxPos=0&fsensor=0&aipVolt=0&boardTemp=0&powerVolt=0&HDop=0&GpsSatNum=0&GlonasSatNum=0 message 
+11:40:47.954|INFO|HttpSendHandler|16|answer from server: OK 
+11:43:50.636|DEBUG|Gt02WireProtocol|21|receive data: 68-68-0F-06-04-08-64-71-70-03-45-58-33-E5-18-1A-04-D0-0D-0A 
+11:43:50.636|DEBUG|Gt02WireProtocol|21|Received appropriate head bytes 104 104 
+11:43:50.636|DEBUG|Gt02WireProtocol|21|message length is 15 
+11:43:50.636|DEBUG|Gt02WireProtocol|21|Parsing heartbeat package (17 bytes) 
+11:43:50.636|DEBUG|Gt02WireProtocol|21|Voltage level (0~6): 6 
+11:43:50.636|DEBUG|Gt02WireProtocol|21|GSM signal level (0~4): 4 
+11:43:50.636|DEBUG|Gt02WireProtocol|21|Locating status: 4 
+11:43:50.636|DEBUG|Gt02WireProtocol|21|Number of satellites: 4 
+11:43:50.636|DEBUG|Gt02WireProtocol|21|Data 54-68-1A-0D-0A 
+11:43:50.636|DEBUG|Gt02Handler|21|gt02 sent: 54-68-1A-0D-0A 
+11:46:51.382|DEBUG|Gt02WireProtocol|21|receive data: 68-68-0F-06-04-08-64-71-70-03-45-58-33-18-F0-1A-04-D0-0D-0A 
+11:46:51.382|DEBUG|Gt02WireProtocol|21|Received appropriate head bytes 104 104 
+11:46:51.382|DEBUG|Gt02WireProtocol|21|message length is 15 
+11:46:51.382|DEBUG|Gt02WireProtocol|21|Parsing heartbeat package (17 bytes) 
+11:46:51.382|DEBUG|Gt02WireProtocol|21|Voltage level (0~6): 6 
+11:46:51.382|DEBUG|Gt02WireProtocol|21|GSM signal level (0~4): 4 
+11:46:51.382|DEBUG|Gt02WireProtocol|21|Locating status: 4 
+11:46:51.382|DEBUG|Gt02WireProtocol|21|Number of satellites: 4 
+11:46:51.382|DEBUG|Gt02WireProtocol|21|Data 54-68-1A-0D-0A 
+11:46:51.382|DEBUG|Gt02Handler|21|gt02 sent: 54-68-1A-0D-0A 
+11:47:01.283|INFO|DeviceManService|9|Stopping service. 
+11:47:01.283|INFO|RequestDispatcher|9|Service stopping... 
+11:47:01.309|DEBUG|Gt02Handler|9|Client Disconnected: 1,  
+11:47:01.309|INFO|RequestDispatcher|9|Device handler Race.Locator.Positioning.DeviceMan.Handler.Gt02Handler stopped 
+11:47:06.310|INFO|RequestDispatcher|9|Service stopped. 
